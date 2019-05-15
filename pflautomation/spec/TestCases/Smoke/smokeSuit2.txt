@@ -1,0 +1,9 @@
+spec/TestCases/Smoke/TS09_Administration_User_Shared_Program.rb
+spec/TestCases/Smoke/TS10_verify_cutom_permission_set_tools_page.rb
+spec/TestCases/Smoke/TS11_advance_search_functionality.rb
+spec/TestCases/Smoke/TS12_Administration_enable_license.rb
+spec/TestCases/Smoke/TS13_Product_quantity_assert.rb
+spec/TestCases/Smoke/TS14_StandardAccessType.rb
+spec/TestCases/Smoke/TS15_Contact_Blankaddress_Send_Swag_Error.rb
+spec/TestCases/Smoke/TS16_Contact_length_validation_on_custom_address.rb
+spec/TestCases/Smoke/TS17_Verify_Do_Not_Swag.rb

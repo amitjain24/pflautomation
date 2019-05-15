@@ -1,0 +1,8 @@
+spec/TestCases/Smoke/TS01_Administration_AssertTiles.rb
+spec/TestCases/Smoke/TS02_Administration_verify_program.rb
+spec/TestCases/Smoke/TS03_Verify_order_on_contact_and_account.rb
+spec/TestCases/Smoke/TS04_Administration_Campaign_Associated.rb
+spec/TestCases/Smoke/TS05_Administration_Multiple_product.rb
+spec/TestCases/Smoke/TS06_Administration_role_based_program.rb
+spec/TestCases/Smoke/TS07_Administration_program_error_validation.rb
+spec/TestCases/Smoke/TS08_Verify_changes_when_swagIQ_license_is_assigned.rb

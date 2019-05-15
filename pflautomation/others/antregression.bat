@@ -1,0 +1,1 @@
+rake excuteRegressioncase[3,'regressionSuit.txt']

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>RSpec results</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Expires" content="-1" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <style type="text/css">
+  body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-size: 80%;
+  }
+  </style>
+  <script type="text/javascript">
+    // <![CDATA[
+
+function addClass(element_id, classname) {
+  document.getElementById(element_id).className += (" " + classname);
+}
+
+function removeClass(element_id, classname) {
+  var elem = document.getElementById(element_id);
+  var classlist = elem.className.replace(classname,'');
+  elem.className = classlist;
+}
+
+function moveProgressBar(percentDone) {
+  document.getElementById("rspec-header").style.width = percentDone +"%";
+}
+
+function makeRed(element_id) {
+  removeClass(element_id, 'passed');
+  removeClass(element_id, 'not_implemented');
+  addClass(element_id,'failed');
+}
+
+function makeYellow(element_id) {
+  var elem = document.getElementById(element_id);
+  if (elem.className.indexOf("failed") == -1) {  // class doesn't includes failed
+    if (elem.className.indexOf("not_implemented") == -1) { // class doesn't include not_implemented
+      removeClass(element_id, 'passed');
+      addClass(element_id,'not_implemented');
+    }
+  }
+}
+
+function apply_filters() {
+  var passed_filter = document.getElementById('passed_checkbox').checked;
+  var failed_filter = document.getElementById('failed_checkbox').checked;
+  var pending_filter = document.getElementById('pending_checkbox').checked;
+
+  assign_display_style("example passed", passed_filter);
+  assign_display_style("example failed", failed_filter);
+  assign_display_style("example not_implemented", pending_filter);
+
+  assign_display_style_for_group("example_group passed", passed_filter);
+  assign_display_style_for_group("example_group not_implemented", pending_filter, pending_filter || passed_filter);
+  assign_display_style_for_group("example_group failed", failed_filter, failed_filter || pending_filter || passed_filter);
+}
+
+function get_display_style(display_flag) {
+  var style_mode = 'none';
+  if (display_flag == true) {
+    style_mode = 'block';
+  }
+  return style_mode;
+}
+
+function assign_display_style(classname, display_flag) {
+  var style_mode = get_display_style(display_flag);
+  var elems = document.getElementsByClassName(classname)
+  for (var i=0; i<elems.length;i++) {
+    elems[i].style.display = style_mode;
+  }
+}
+
+function assign_display_style_for_group(classname, display_flag, subgroup_flag) {
+  var display_style_mode = get_display_style(display_flag);
+  var subgroup_style_mode = get_display_style(subgroup_flag);
+  var elems = document.getElementsByClassName(classname)
+  for (var i=0; i<elems.length;i++) {
+    var style_mode = display_style_mode;
+    if ((display_flag != subgroup_flag) && (elems[i].getElementsByTagName('dt')[0].innerHTML.indexOf(", ") != -1)) {
+      elems[i].style.display = subgroup_style_mode;
+    } else {
+      elems[i].style.display = display_style_mode;
+    }
+  }
+}
+
+    // ]]>
+  </script>
+  <style type="text/css">
+#rspec-header {
+  background: #65C400; color: #fff; height: 4em;
+}
+
+.rspec-report h1 {
+  margin: 0px 10px 0px 10px;
+  padding: 10px;
+  font-family: "Lucida Grande", Helvetica, sans-serif;
+  font-size: 1.8em;
+  position: absolute;
+}
+
+#label {
+  float:left;
+}
+
+#display-filters {
+  float:left;
+  padding: 28px 0 0 40%;
+  font-family: "Lucida Grande", Helvetica, sans-serif;
+}
+
+#summary {
+  float:right;
+  padding: 5px 10px;
+  font-family: "Lucida Grande", Helvetica, sans-serif;
+  text-align: right;
+}
+
+#summary p {
+  margin: 0 0 0 2px;
+}
+
+#summary #totals {
+  font-size: 1.2em;
+}
+
+.example_group {
+  margin: 0 10px 5px;
+  background: #fff;
+}
+
+dl {
+  margin: 0; padding: 0 0 5px;
+  font: normal 11px "Lucida Grande", Helvetica, sans-serif;
+}
+
+dt {
+  padding: 3px;
+  background: #65C400;
+  color: #fff;
+  font-weight: bold;
+}
+
+dd {
+  margin: 5px 0 5px 5px;
+  padding: 3px 3px 3px 18px;
+}
+
+dd .duration {
+  padding-left: 5px;
+  text-align: right;
+  right: 0px;
+  float:right;
+}
+
+dd.example.passed {
+  border-left: 5px solid #65C400;
+  border-bottom: 1px solid #65C400;
+  background: #DBFFB4; color: #3D7700;
+}
+
+dd.example.not_implemented {
+  border-left: 5px solid #FAF834;
+  border-bottom: 1px solid #FAF834;
+  background: #FCFB98; color: #131313;
+}
+
+dd.example.pending_fixed {
+  border-left: 5px solid #0000C2;
+  border-bottom: 1px solid #0000C2;
+  color: #0000C2; background: #D3FBFF;
+}
+
+dd.example.failed {
+  border-left: 5px solid #C20000;
+  border-bottom: 1px solid #C20000;
+  color: #C20000; background: #FFFBD3;
+}
+
+
+dt.not_implemented {
+  color: #000000; background: #FAF834;
+}
+
+dt.pending_fixed {
+  color: #FFFFFF; background: #C40D0D;
+}
+
+dt.failed {
+  color: #FFFFFF; background: #C40D0D;
+}
+
+
+#rspec-header.not_implemented {
+  color: #000000; background: #FAF834;
+}
+
+#rspec-header.pending_fixed {
+  color: #FFFFFF; background: #C40D0D;
+}
+
+#rspec-header.failed {
+  color: #FFFFFF; background: #C40D0D;
+}
+
+
+.backtrace {
+  color: #000;
+  font-size: 12px;
+}
+
+a {
+  color: #BE5C00;
+}
+
+/* Ruby code, style similar to vibrant ink */
+.ruby {
+  font-size: 12px;
+  font-family: monospace;
+  color: white;
+  background-color: black;
+  padding: 0.1em 0 0.2em 0;
+}
+
+.ruby .keyword { color: #FF6600; }
+.ruby .constant { color: #339999; }
+.ruby .attribute { color: white; }
+.ruby .global { color: white; }
+.ruby .module { color: white; }
+.ruby .class { color: white; }
+.ruby .string { color: #66FF00; }
+.ruby .ident { color: white; }
+.ruby .method { color: #FFCC00; }
+.ruby .number { color: white; }
+.ruby .char { color: white; }
+.ruby .comment { color: #9933CC; }
+.ruby .symbol { color: white; }
+.ruby .regex { color: #44B4CC; }
+.ruby .punct { color: white; }
+.ruby .escape { color: white; }
+.ruby .interp { color: white; }
+.ruby .expr { color: white; }
+
+.ruby .offending { background-color: gray; }
+.ruby .linenum {
+  width: 75px;
+  padding: 0.1em 1em 0.2em 0;
+  color: #000000;
+  background-color: #FFFBD3;
+}
+
+  </style>
+</head>
+<body>
+<div class="rspec-report">
+
+<div id="rspec-header">
+  <div id="label">
+    <h1>RSpec Code Examples</h1>
+  </div>
+
+  <div id="display-filters">
+    <input id="passed_checkbox"  name="passed_checkbox"  type="checkbox" checked="checked" onchange="apply_filters()" value="1" /> <label for="passed_checkbox">Passed</label>
+    <input id="failed_checkbox"  name="failed_checkbox"  type="checkbox" checked="checked" onchange="apply_filters()" value="2" /> <label for="failed_checkbox">Failed</label>
+    <input id="pending_checkbox" name="pending_checkbox" type="checkbox" checked="checked" onchange="apply_filters()" value="3" /> <label for="pending_checkbox">Pending</label>
+  </div>
+
+  <div id="summary">
+    <p id="totals">&#160;</p>
+    <p id="duration">&#160;</p>
+  </div>
+</div>
+
+
+<div class="results">
+<div id="div_group_1" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_1" class="passed">Verifying available Tile Labels (User administration, Product Administration, Program Administration) and their content under Administration tab For Admin access level user</dt>
+    <script type="text/javascript">moveProgressBar('3.1');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-1: Verify presence of different administration tiles</span><span class='duration'>63.45454s</span></dd>
+    <script type="text/javascript">moveProgressBar('6.2');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-2: Verify  presence of different components on Program administration  page</span><span class='duration'>64.92013s</span></dd>
+    <script type="text/javascript">moveProgressBar('9.3');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-3: Verify  presence of different components on User administration page</span><span class='duration'>65.70084s</span></dd>
+    <script type="text/javascript">moveProgressBar('12.5');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-4: Verify  presence of different components on Product administration  page</span><span class='duration'>63.72446s</span></dd>
+  </dl>
+</div>
+<div id="div_group_2" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_2" class="passed">Verify Successfully created  active program associated with SwagIQ User displaying Under Send Marketing Material Page..</dt>
+    <script type="text/javascript">moveProgressBar('15.6');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-1: Verify base program is Visible Under Send Marketing Material for program associated user.</span><span class='duration'>94.22120s</span></dd>
+  </dl>
+</div>
+<div id="div_group_3" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_3" class="passed">Send Swag - Verify that user is able to send the swag through Account address</dt>
+    <script type="text/javascript">moveProgressBar('18.7');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-1: Verify SwagIQ Order Created on contact address.</span><span class='duration'>114.38540s</span></dd>
+    <script type="text/javascript">moveProgressBar('21.8');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-2: Verify SwagIQ Order Created on Account address.</span><span class='duration'>116.54371s</span></dd>
+  </dl>
+</div>
+<div id="div_group_4" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_4" class="passed">Verify that contact is associated to Campaign Under Program Administration</dt>
+    <script type="text/javascript">moveProgressBar('25.0');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-01: Verify that Contact is associated with Campaign after Sending Swag related to Program</span><span class='duration'>108.46940s</span></dd>
+  </dl>
+</div>
+<div id="div_group_5" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_5" class="passed">Verify Successfully program created with multiple product associated with it and user able to send swag with multiple products </dt>
+    <script type="text/javascript">makeRed('rspec-header');</script>
+    <script type="text/javascript">makeRed('div_group_5');</script>
+    <script type="text/javascript">makeRed('example_group_5');</script>
+    <script type="text/javascript">moveProgressBar('28.1');</script>
+    <dd class="example failed">
+      <span class="failed_spec_name">TS-01: Verify that user is able to send swag with associated product to Program</span>
+      <span class="duration">0.00001s</span>
+      <div class="failure" id="failure_1">
+        <div class="message"><pre>Unable to find xpath &quot;(//input[@placeholder=&#39;Search Product Name&#39;])[2]&quot;</pre></div>
+        <div class="backtrace"><pre>./lib/PageService/administrationService.rb:492:in `block (3 levels) in add_program_product_on_classic&#39;
+./lib/FrameworkLib/utility_lib.rb:300:in `block in re_execute_script_block&#39;
+./lib/FrameworkLib/utility_lib.rb:298:in `each&#39;
+./lib/FrameworkLib/utility_lib.rb:298:in `re_execute_script_block&#39;
+./lib/PageService/administrationService.rb:491:in `block (2 levels) in add_program_product_on_classic&#39;
+./lib/PageService/administrationService.rb:488:in `block in add_program_product_on_classic&#39;
+./lib/PageService/administrationService.rb:487:in `add_program_product_on_classic&#39;
+./lib/PageService/administrationService.rb:479:in `add_program_product&#39;
+./spec/TestCases/Smoke/TS05_Administration_Multiple_product.rb:31:in `block (2 levels) in &lt;top (required)&gt;&#39;</pre></div>
+    <pre class="ruby"><code><span class="linenum">490</span>                                <span class="comment">#UTIL.page_load_waiting</span>
+<span class="linenum">491</span>                                <span class="constant">UTIL</span>.re_execute_script_block <span class="keyword">do</span>
+<span class="offending"><span class="linenum">492</span>                                        find(<span class="symbol">:xpath</span>,<span class="string"><span class="delimiter">&quot;</span><span class="content">(//input[@placeholder='Search Product Name'])[</span><span class="inline"><span class="inline-delimiter">#{</span>product_count<span class="inline-delimiter">}</span></span><span class="content">]</span><span class="delimiter">&quot;</span></span>, <span class="symbol">:visible</span> =&gt;<span class="predefined-constant">true</span> ,<span class="symbol">:wait</span> =&gt; <span class="integer">30</span>).set product_name</span>
+<span class="linenum">493</span>                                <span class="keyword">end</span>
+<span class="linenum">494</span>                                find(<span class="symbol">:xpath</span>, <span class="string"><span class="delimiter">&quot;</span><span class="content">(//a[contains(@title,'</span><span class="delimiter">&quot;</span></span>+product_name+<span class="string"><span class="delimiter">&quot;</span><span class="content">')])</span><span class="delimiter">&quot;</span></span>,<span class="symbol">:visible</span> =&gt; <span class="predefined-constant">true</span>,<span class="symbol">:wait</span> =&gt; <span class="integer">40</span>).click</code></pre>
+      </div>
+    </dd>
+  </dl>
+</div>
+<div id="div_group_6" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_6" class="passed">Verify Successfully program created with assignment type role with single product associated with it and user able to send swag.</dt>
+    <script type="text/javascript">makeRed('div_group_6');</script>
+    <script type="text/javascript">makeRed('example_group_6');</script>
+    <script type="text/javascript">moveProgressBar('31.2');</script>
+    <dd class="example failed">
+      <span class="failed_spec_name">TS-1: Verify that user is able to send swag with associated product to Role Program</span>
+      <span class="duration">0.00001s</span>
+      <div class="failure" id="failure_2">
+        <div class="message"><pre>unknown error: Element &lt;button class=&quot;btn btn-default&quot; ng-click=&quot;adminProgramsCtrl.createRecord()&quot; title=&quot;New Program&quot;&gt;...&lt;/button&gt; is not clickable at point (1211, 64). Other element would receive the click: &lt;div uib-modal-window=&quot;modal-window&quot; class=&quot;modal fade ng-scope ng-isolate-scope in&quot; role=&quot;dialog&quot; aria-labelledby=&quot;modal-title&quot; aria-describedby=&quot;modal-body&quot; size=&quot;md&quot; index=&quot;0&quot; animate=&quot;animate&quot; ng-style=&quot;{&#39;z-index&#39;: 1050 + $$topModalIndex*10, display: &#39;block&#39;}&quot; tabindex=&quot;-1&quot; uib-modal-animation-class=&quot;fade&quot; modal-in-class=&quot;in&quot; modal-animation=&quot;true&quot; style=&quot;z-index: 1050; display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64)</pre></div>
+        <div class="backtrace"><pre>./lib/PageService/administrationService.rb:154:in `block (2 levels) in click_new_program_classic_button&#39;
+./lib/PageService/administrationService.rb:151:in `block in click_new_program_classic_button&#39;
+./lib/PageService/administrationService.rb:150:in `click_new_program_classic_button&#39;
+./lib/PageService/administrationService.rb:166:in `click_new_program_button&#39;
+./spec/TestCases/Smoke/TS06_Administration_role_based_program.rb:19:in `block (2 levels) in &lt;top (required)&gt;&#39;</pre></div>
+    <pre class="ruby"><code><span class="linenum">152</span>                                        <span class="comment">#click_button('New Program')</span>
+<span class="linenum">153</span>                                        click_on(<span class="string"><span class="delimiter">'</span><span class="content">New Program</span><span class="delimiter">'</span></span>)
+<span class="offending"><span class="linenum">154</span>                                         find(<span class="symbol">:xpath</span>, <span class="global-variable">$admin_new_program_button</span>,<span class="symbol">:visible</span> =&gt; <span class="predefined-constant">true</span>,<span class="symbol">:wait</span> =&gt; <span class="integer">60</span>).click</span>
+<span class="linenum">155</span>                                         logger.info <span class="string"><span class="delimiter">'</span><span class="content">Clicked on New Program Button</span><span class="delimiter">'</span></span>
+<span class="linenum">156</span>                                        <span class="constant">UTIL</span>.wait_object_appear <span class="global-variable">$admin_program_cancel_button</span></code></pre>
+      </div>
+    </dd>
+  </dl>
+</div>
+<div id="div_group_7" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_7" class="passed">Verifying error message when quantity is exceeding than the available</dt>
+    <script type="text/javascript">makeRed('div_group_7');</script>
+    <script type="text/javascript">makeRed('example_group_7');</script>
+    <script type="text/javascript">moveProgressBar('34.3');</script>
+    <dd class="example failed">
+      <span class="failed_spec_name">TS-01: Verifying error message when quantity is exceeding than the available</span>
+      <span class="duration">43.62550s</span>
+      <div class="failure" id="failure_3">
+        <div class="message"><pre>unknown error: Element &lt;button class=&quot;btn btn-default&quot; ng-click=&quot;adminProgramsCtrl.createRecord()&quot; title=&quot;New Program&quot;&gt;...&lt;/button&gt; is not clickable at point (1211, 17). Other element would receive the click: &lt;div uib-modal-window=&quot;modal-window&quot; class=&quot;modal fade ng-scope ng-isolate-scope in&quot; role=&quot;dialog&quot; aria-labelledby=&quot;modal-title&quot; aria-describedby=&quot;modal-body&quot; size=&quot;md&quot; index=&quot;0&quot; animate=&quot;animate&quot; ng-style=&quot;{&#39;z-index&#39;: 1050 + $$topModalIndex*10, display: &#39;block&#39;}&quot; tabindex=&quot;-1&quot; uib-modal-animation-class=&quot;fade&quot; modal-in-class=&quot;in&quot; modal-animation=&quot;true&quot; style=&quot;z-index: 1050; display: block;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64)</pre></div>
+        <div class="backtrace"><pre>./lib/PageService/administrationService.rb:154:in `block (2 levels) in click_new_program_classic_button&#39;
+./lib/PageService/administrationService.rb:151:in `block in click_new_program_classic_button&#39;
+./lib/PageService/administrationService.rb:150:in `click_new_program_classic_button&#39;
+./lib/PageService/administrationService.rb:166:in `click_new_program_button&#39;
+./spec/TestCases/Smoke/TS07_Administration_program_error_validation.rb:21:in `block (2 levels) in &lt;top (required)&gt;&#39;</pre></div>
+    <pre class="ruby"><code><span class="linenum">152</span>                                        <span class="comment">#click_button('New Program')</span>
+<span class="linenum">153</span>                                        click_on(<span class="string"><span class="delimiter">'</span><span class="content">New Program</span><span class="delimiter">'</span></span>)
+<span class="offending"><span class="linenum">154</span>                                         find(<span class="symbol">:xpath</span>, <span class="global-variable">$admin_new_program_button</span>,<span class="symbol">:visible</span> =&gt; <span class="predefined-constant">true</span>,<span class="symbol">:wait</span> =&gt; <span class="integer">60</span>).click</span>
+<span class="linenum">155</span>                                         logger.info <span class="string"><span class="delimiter">'</span><span class="content">Clicked on New Program Button</span><span class="delimiter">'</span></span>
+<span class="linenum">156</span>                                        <span class="constant">UTIL</span>.wait_object_appear <span class="global-variable">$admin_program_cancel_button</span></code></pre><p>Saved files: </p>
+      </div>
+    </dd>
+  </dl>
+</div>
+<div id="div_group_8" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_8" class="passed">Verify clicking select all  &#39;enabled&#39; checkbox on Licenses page functionality</dt>
+    <script type="text/javascript">moveProgressBar('37.5');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS:1 Verifying the select all Enabled checkbox, assign license to all users on page and License Count increased by number with selected count</span><span class='duration'>78.72080s</span></dd>
+  </dl>
+</div>
+<div id="div_group_9" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_9" class="passed">Verify Single user can consume all quantity using shared program based upon multiple users</dt>
+    <script type="text/javascript">moveProgressBar('40.6');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS:1 Verify valid user can create Shared type program successfully and user can consume all product quantity</span><span class='duration'>150.54659s</span></dd>
+    <script type="text/javascript">moveProgressBar('43.7');</script>
+    <dd class="example passed"><span class="passed_spec_name">verifying from another user</span><span class='duration'>95.23513s</span></dd>
+  </dl>
+</div>
+<div id="div_group_10" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_10" class="passed">Verify that License tab is visible to user, after assigning permission(Assign permission set) for custom profile</dt>
+    <script type="text/javascript">moveProgressBar('46.8');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-1: verifying through the custom user profile</span><span class='duration'>46.81024s</span></dd>
+  </dl>
+</div>
+<div id="div_group_11" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_11" class="passed">Verify various functionalities of License page</dt>
+    <script type="text/javascript">moveProgressBar('50.0');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-1: Verify simple search and advance search on license page</span><span class='duration'>213.97860s</span></dd>
+  </dl>
+</div>
+<div id="div_group_12" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_12" class="passed">Verify clicking select all  &#39;enabled&#39; checkbox on Licenses page functionality</dt>
+    <script type="text/javascript">moveProgressBar('53.1');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS:1 Verifying the select all Enabled checkbox , assign license to all users on page and License Count increased by number with selected count</span><span class='duration'>76.22096s</span></dd>
+  </dl>
+</div>
+<div id="div_group_13" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_13" class="passed">Verify Product Configuration (Display Name or Quantity) Under Product Administration and Configured product displayed While creating a Program</dt>
+    <script type="text/javascript">makeRed('div_group_13');</script>
+    <script type="text/javascript">makeRed('example_group_13');</script>
+    <script type="text/javascript">moveProgressBar('56.2');</script>
+    <dd class="example failed">
+      <span class="failed_spec_name">TS-1: Verify Product Configuration (Quantity) Under Product Administration and program page</span>
+      <span class="duration">112.67907s</span>
+      <div class="failure" id="failure_4">
+        <div class="message"><pre>
+expected: true
+     got: false
+
+(compared using eql?)
+</pre></div>
+        <div class="backtrace"><pre>./spec/TestCases/Smoke/TS13_Product_quantity_assert.rb:42:in `block (2 levels) in &lt;top (required)&gt;&#39;</pre></div>
+    <pre class="ruby"><code><span class="linenum">40</span>
+<span class="linenum">41</span>                result = <span class="constant">UTIL</span>.compare_values unallocated_product_qty, available_product_qty
+<span class="offending"><span class="linenum">42</span>                expect(result).to eql(<span class="predefined-constant">true</span>)</span>
+<span class="linenum">43</span>                logger.info <span class="string"><span class="delimiter">&quot;</span><span class="content">Comaprision on unallocated product qty : </span><span class="inline"><span class="inline-delimiter">#{</span>result<span class="inline-delimiter">}</span></span><span class="delimiter">&quot;</span></span></code></pre><p>Saved files: </p>
+      </div>
+    </dd>
+  </dl>
+</div>
+<div id="div_group_14" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_14" class="passed">Verify that User with access level standard user could not access the Administrator tab and see the error message - You are not authorized to view that resource </dt>
+    <script type="text/javascript">moveProgressBar('59.3');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-01: Verify that access level standard user can&#39;t access the Administrator Tab and see the message -You are not authorized to view that resource</span><span class='duration'>45.06586s</span></dd>
+  </dl>
+</div>
+<div id="div_group_15" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_15" class="passed">Verify that user can&#39;t do send swag if recipient doesn&#39;t have complete address</dt>
+    <script type="text/javascript">moveProgressBar('62.5');</script>
+    <dd class="example passed"><span class="passed_spec_name">Verify that after clicking send swag, user gets address page to fill in if he has incomplete address</span><span class='duration'>123.32971s</span></dd>
+  </dl>
+</div>
+<div id="div_group_16" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_16" class="passed">Verify length validation on Custom Address form during Send Swag</dt>
+    <script type="text/javascript">moveProgressBar('65.6');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-1: Verify that if limit exceeds of the entered text in input boxes then it produces validation error</span><span class='duration'>194.93055s</span></dd>
+  </dl>
+</div>
+<div id="div_group_17" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_17" class="passed">Verify that User will not be able to Send Swag IF ‘Do Not Swag&#39; field is checked for Contact </dt>
+    <script type="text/javascript">makeRed('div_group_17');</script>
+    <script type="text/javascript">makeRed('example_group_17');</script>
+    <script type="text/javascript">moveProgressBar('68.7');</script>
+    <dd class="example failed">
+      <span class="failed_spec_name">TS-01: Verify User is not able to Send Swag if Do Not Swag field is enabled for Contact </span>
+      <span class="duration">42.96096s</span>
+      <div class="failure" id="failure_5">
+        <div class="message"><pre>
+expected: true
+     got: nil
+
+(compared using eql?)
+</pre></div>
+        <div class="backtrace"><pre>./spec/TestCases/Smoke/TS17_Verify_Do_Not_Swag.rb:27:in `block (2 levels) in &lt;top (required)&gt;&#39;</pre></div>
+    <pre class="ruby"><code><span class="linenum">25</span>
+<span class="linenum">26</span>                assert_access = <span class="constant">CON</span>.verify_send_swag_not_available
+<span class="offending"><span class="linenum">27</span>                expect(assert_access).to eql(<span class="predefined-constant">true</span>)</span>
+<span class="linenum">28</span>                logger.info <span class="string"><span class="delimiter">&quot;</span><span class="content">Verify send swag not available : </span><span class="inline"><span class="inline-delimiter">#{</span>assert_access<span class="inline-delimiter">}</span></span><span class="delimiter">&quot;</span></span></code></pre><p>Saved files: </p>
+      </div>
+    </dd>
+  </dl>
+</div>
+<div id="div_group_18" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_18" class="passed">Verify that tasks are created when SwagIQ Order status is changed to Order Confirmed, Shipped and Delivered</dt>
+    <script type="text/javascript">moveProgressBar('71.8');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-1: Verify that tasks are created Under Activity History when SwagIQ Order status changed to Order Confirmed/Shipped/Delivered</span><span class='duration'>205.84606s</span></dd>
+  </dl>
+</div>
+<div id="div_group_19" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_19" class="passed">Verifying that Swag Last Sent Date field on the Contact object is updated when send swag performed</dt>
+    <script type="text/javascript">moveProgressBar('75.0');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-01: Verify that Swag Last Sent Date field updated when Swag swag performed on contact</span><span class='duration'>109.37528s</span></dd>
+  </dl>
+</div>
+<div id="div_group_20" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_20" class="passed">Verify that validation message displayed to user, if no program is associated to user on Send swag Screen</dt>
+    <script type="text/javascript">moveProgressBar('78.1');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-1: Verify that validation message displayed to user if no program is associated  to user on send swag screen</span><span class='duration'>92.11389s</span></dd>
+  </dl>
+</div>
+<div id="div_group_21" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_21" class="passed">Verifying the enable/disable state of program and its impact on send Swag</dt>
+    <script type="text/javascript">moveProgressBar('81.2');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-01: Verifying the activation of program by sending swag</span><span class='duration'>140.95287s</span></dd>
+    <script type="text/javascript">moveProgressBar('84.3');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-02: Verifying the deactivation of program by sending swag</span><span class='duration'>161.34181s</span></dd>
+  </dl>
+</div>
+<div id="div_group_22" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_22" class="passed">Verifying Active/Inactive State of Product on Product Administration</dt>
+    <script type="text/javascript">moveProgressBar('87.5');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-1: Verifying Active State of Product on Product Administration</span><span class='duration'>99.09295s</span></dd>
+    <script type="text/javascript">moveProgressBar('90.6');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-2: Verifying Inactive State of Product on Product Administration</span><span class='duration'>119.78304s</span></dd>
+  </dl>
+</div>
+<div id="div_group_23" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_23" class="passed">Verifying the Removal of user from Store on User Administrator</dt>
+    <script type="text/javascript">moveProgressBar('93.7');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-1: Verifying the remove user into the Store</span><span class='duration'>43.57434s</span></dd>
+  </dl>
+</div>
+<div id="div_group_24" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_24" class="passed">Verifying user is able to edit program after creation</dt>
+    <script type="text/javascript">moveProgressBar('96.8');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS-1: Verify that user is able to disable and edit the above created program</span><span class='duration'>109.34694s</span></dd>
+  </dl>
+</div>
+<div id="div_group_25" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_25" class="passed">Verifying the advanced search functionality on User administrator</dt>
+    <script type="text/javascript">moveProgressBar('100.0');</script>
+    <dd class="example passed"><span class="passed_spec_name">TS:01 Verifying the advanced search functionality</span><span class='duration'>106.48483s</span></dd>
+  </dl>
+</div>
+<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>5295.41166 seconds</strong>";</script>
+<script type="text/javascript">document.getElementById('totals').innerHTML = "32 examples, 5 failures";</script>
+</div>
+</div>
+</body>
+</html>

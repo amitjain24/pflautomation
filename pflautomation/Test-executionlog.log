@@ -1,0 +1,1282 @@
+[2019-05-14 17:23:03] INFO  (): Executing TS-1.....
+[2019-05-14 17:23:03] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:23:22] INFO  (): Clicking to Login Button
+[2019-05-14 17:23:39] INFO  (): Find the path for object
+[2019-05-14 17:23:57] INFO  (): Program Administration Tile appears on page : true
+[2019-05-14 17:23:57] INFO  (): List item View Program under Program Administration Tile appears on page : true
+[2019-05-14 17:23:57] INFO  (): List items Create and Edit programs under Program Administration Tile appears on page : true
+[2019-05-14 17:23:57] INFO  (): User Administration Tile appears on page : true
+[2019-05-14 17:23:58] INFO  (): Add and Edit Users options appear under Administration Tile : true
+[2019-05-14 17:23:58] INFO  (): Active and Inactiver User options appear under User Administration Tile : true
+[2019-05-14 17:23:58] INFO  (): Product Administration Tile appears on page : true
+[2019-05-14 17:23:58] INFO  (): View products List item appears under Product Administration Tile : true
+[2019-05-14 17:23:58] INFO  (): Edit product budget List item appears under Product Administration Tile : true
+[2019-05-14 17:23:58] INFO  (): Active and Inactive products List item appear under Product Administration Tile : true
+[2019-05-14 17:23:58] INFO  (): entered in logout method
+[2019-05-14 17:23:32] INFO  (): already on classic
+[2019-05-14 17:24:04] INFO  (): Completed TS-1.....
+[2019-05-14 17:24:04] INFO  (): Logout from current user
+[2019-05-14 17:24:07] INFO  (): Executing TS-2 - Verify  presence of different components on Program administration.
+[2019-05-14 17:24:07] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:23:59] INFO  (): logged out successfully
+[2019-05-14 17:24:43] INFO  (): Find the path for object
+[2019-05-14 17:24:26] INFO  (): Clicking to Login Button
+[2019-05-14 17:25:01] INFO  (): Clicked on Admin Tile
+[2019-05-14 17:25:02] INFO  (): Name column appears on Program Administration detail page : true
+[2019-05-14 17:24:36] INFO  (): already on classic
+[2019-05-14 17:25:02] INFO  (): Product column appears on Program Administration detail page : true
+[2019-05-14 17:25:02] INFO  (): Campaign Name column appears on Program Administration detail page : true
+[2019-05-14 17:25:02] INFO  (): Budget column appears on Program Administration detail page : true
+[2019-05-14 17:25:03] INFO  (): Created column appears on Program Administration detail page : true
+[2019-05-14 17:25:03] INFO  (): Updated column appears on Program Administration detail page : true
+[2019-05-14 17:25:03] INFO  (): Active column appears on Program Administration detail page : true
+[2019-05-14 17:25:03] INFO  (): New Program button appears on Program Administration detail page : true
+[2019-05-14 17:25:03] INFO  (): Search bar with Search program placeholder appears on Program Administration detail page : true
+[2019-05-14 17:25:03] INFO  (): entered in logout method
+[2019-05-14 17:25:04] INFO  (): logged out successfully
+[2019-05-14 17:25:09] INFO  (): Logout from current user
+[2019-05-14 17:25:09] INFO  (): COMPLETED  TS-2 - .
+		...
+[2019-05-14 17:25:12] INFO  (): Executing TS-3 - Verify  presence of different components on User administration page
+[2019-05-14 17:25:12] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:25:49] INFO  (): Find the path for object
+[2019-05-14 17:25:30] INFO  (): Clicking to Login Button
+[2019-05-14 17:26:06] INFO  (): Find the path for object
+[2019-05-14 17:26:06] INFO  (): Clicked on User Tile
+[2019-05-14 17:26:08] INFO  (): First Name column appears on User Administration detail page : true
+[2019-05-14 17:25:40] INFO  (): already on classic
+[2019-05-14 17:26:08] INFO  (): last Name column appears on User Administration detail page : true
+[2019-05-14 17:26:08] INFO  (): Title column appears on User Administration detail page : true
+[2019-05-14 17:26:08] INFO  (): Email column appears on User Administration detail page : true
+[2019-05-14 17:26:08] INFO  (): Role column appears on User Administration detail page : true
+[2019-05-14 17:26:08] INFO  (): Profile column appears on User Administration detail page : true
+[2019-05-14 17:26:08] INFO  (): Cost Center column appears on User Administration detail page : true
+[2019-05-14 17:26:09] INFO  (): County column appears on User Administration detail page : true
+[2019-05-14 17:26:09] INFO  (): User Type column appears on User Administration detail page : true
+[2019-05-14 17:26:09] INFO  (): Search bar with search users placeholder appears on User Administration detail page : true
+[2019-05-14 17:26:09] INFO  (): Add Users button appears on User Administration detail page : true
+[2019-05-14 17:26:09] INFO  (): entered in logout method
+[2019-05-14 17:26:10] INFO  (): logged out successfully
+[2019-05-14 17:26:15] INFO  (): Logout from current user
+[2019-05-14 17:26:15] INFO  (): COMPLETED  TS-3 - ....
+[2019-05-14 17:26:18] INFO  (): Executing TS-4 - Verify  presence of different components on Product administration  page
+[2019-05-14 17:26:18] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:26:53] INFO  (): Find the path for object
+[2019-05-14 17:26:36] INFO  (): Clicking to Login Button
+[2019-05-14 17:27:10] INFO  (): Find the path for object
+[2019-05-14 17:27:12] INFO  (): Budgeted column appears on Product Administration detail page : true
+[2019-05-14 17:26:46] INFO  (): already on classic
+[2019-05-14 17:27:12] INFO  (): Allocated column appears on Product Administration detail page : true
+[2019-05-14 17:27:12] INFO  (): Active column appears on Product Administration detail page : true
+[2019-05-14 17:27:12] INFO  (): Search bar with search products placeholder on Product Administration detail page : true
+[2019-05-14 17:27:12] INFO  (): entered in logout method
+[2019-05-14 17:27:14] INFO  (): logged out successfully
+[2019-05-14 17:27:19] INFO  (): Logout from current user
+[2019-05-14 17:27:19] INFO  (): COMPLETED  TS-4 - ....
+[2019-05-14 17:27:21] INFO  (): logging into for TS02_Administration_verify_program
+[2019-05-14 17:27:21] INFO  (): Logged in With deepak@metacubeautomation.com
+[2019-05-14 17:28:00] INFO  (): Find the path for object
+[2019-05-14 17:27:43] INFO  (): Clicking to Login Button
+[2019-05-14 17:28:19] INFO  (): clicked on go button first time
+[2019-05-14 17:28:19] INFO  (): Contact Name CON
+[2019-05-14 17:28:40] INFO  (): In classsic Version.
+[2019-05-14 17:28:53] INFO  (): Program appears on send swag page : true
+[2019-05-14 17:28:53] INFO  (): logged out for TS02_Administration_verify_program
+[2019-05-14 17:27:53] INFO  (): already on classic
+[2019-05-14 17:28:55] INFO  (): logging in for TC03 verifying order on contact and account address
+[2019-05-14 17:28:55] INFO  (): Logged in With deepak@metacubeautomation.com
+[2019-05-14 17:29:31] INFO  (): Find the path for object
+[2019-05-14 17:29:14] INFO  (): Clicking to Login Button
+[2019-05-14 17:29:49] INFO  (): clicked on go button first time
+[2019-05-14 17:29:49] INFO  (): Contact Name CON
+[2019-05-14 17:30:04] INFO  (): Finding Xpath value 
+[2019-05-14 17:30:04] INFO  (): Contact address section appears on page during send swag : true
+[2019-05-14 17:30:09] INFO  (): In classsic Version.
+[2019-05-14 17:30:17] INFO  (): Find the path for object
+[2019-05-14 17:30:17] INFO  (): Entered in Program Send Swag Screen
+[2019-05-14 17:30:17] INFO  (): trying to enter the text in search bar
+[2019-05-14 17:30:17] INFO  (): entered the search query
+[2019-05-14 17:30:17] INFO  (): Entered find
+[2019-05-14 17:29:24] INFO  (): already on classic
+[2019-05-14 17:30:28] INFO  (): Find the path for object
+[2019-05-14 17:30:33] INFO  (): Find the path for object
+[2019-05-14 17:30:39] INFO  (): Confirmation message appears on final step of send swag : true
+[2019-05-14 17:30:39] INFO  (): SwagIQ Order Created
+[2019-05-14 17:30:39] INFO  (): Find the path for object
+[2019-05-14 17:30:39] INFO  (): clicked on canvas OK button
+[2019-05-14 17:30:41] INFO  (): Find the path for object
+[2019-05-14 17:30:41] INFO  (): entered in logout method
+[2019-05-14 17:30:47] INFO  (): Logout from current user
+[2019-05-14 17:30:47] INFO  (): created program and logging out for TC03 verifying order on contact and account address
+[2019-05-14 17:30:50] INFO  (): Verifying account address to send swag for TC03
+[2019-05-14 17:30:50] INFO  (): Logged in With deepak@metacubeautomation.com
+[2019-05-14 17:30:42] INFO  (): logged out successfully
+[2019-05-14 17:31:25] INFO  (): Find the path for object
+[2019-05-14 17:31:08] INFO  (): Clicking to Login Button
+[2019-05-14 17:31:44] INFO  (): clicked on go button first time
+[2019-05-14 17:31:44] INFO  (): Contact Name CON
+[2019-05-14 17:32:00] INFO  (): Finding Xpath value 
+[2019-05-14 17:32:00] INFO  (): Account billing address section appears on page during send swag : true
+[2019-05-14 17:32:05] INFO  (): In classsic Version.
+[2019-05-14 17:31:18] INFO  (): already on classic
+[2019-05-14 17:32:13] INFO  (): Find the path for object
+[2019-05-14 17:32:13] INFO  (): Entered in Program Send Swag Screen
+[2019-05-14 17:32:13] INFO  (): trying to enter the text in search bar
+[2019-05-14 17:32:13] INFO  (): entered the search query
+[2019-05-14 17:32:13] INFO  (): Entered find
+[2019-05-14 17:32:23] INFO  (): Find the path for object
+[2019-05-14 17:32:29] INFO  (): Find the path for object
+[2019-05-14 17:32:34] INFO  (): Confirmation message appears on final step of send swag : true
+[2019-05-14 17:32:34] INFO  (): Find the path for object
+[2019-05-14 17:32:35] INFO  (): clicked on canvas OK button
+[2019-05-14 17:32:37] INFO  (): Find the path for object
+[2019-05-14 17:32:37] INFO  (): entered in logout method
+[2019-05-14 17:32:38] INFO  (): logged out successfully
+[2019-05-14 17:32:43] INFO  (): Logout from current user
+[2019-05-14 17:32:43] INFO  (): logging out from it block of account address to send swag for TC03
+[2019-05-14 17:32:46] INFO  (): Entering in after all block of TC03 Verifying account address to send swag
+[2019-05-14 17:32:46] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:33:05] INFO  (): Clicking to Login Button
+[2019-05-14 17:33:24] INFO  (): Find the path for object
+[2019-05-14 17:33:42] INFO  (): clicked on go button first time
+[2019-05-14 17:33:42] INFO  (): Contact Name CON
+[2019-05-14 17:33:51] INFO  (): Find the path for object
+[2019-05-14 17:33:16] INFO  (): already on classic
+[2019-05-14 17:33:56] INFO  (): order deleted successfully
+[2019-05-14 17:33:56] INFO  (): Find the path for object
+[2019-05-14 17:34:01] INFO  (): order deleted successfully
+[2019-05-14 17:34:01] INFO  (): entered in logout method
+[2019-05-14 17:34:07] INFO  (): Logout from current user
+[2019-05-14 17:34:07] INFO  (): Before Block - TS04 running Contact is associated with Campaign after Sending Swag related to Program 
+[2019-05-14 17:34:07] INFO  (): Logged in With deepak@metacubeautomation.com
+[2019-05-14 17:34:02] INFO  (): logged out successfully
+[2019-05-14 17:34:26] INFO  (): Find the path for object
+[2019-05-14 17:34:15] INFO  (): Clicking to Login Button
+[2019-05-14 17:34:43] INFO  (): Clicked on Admin Tile
+[2019-05-14 17:34:45] INFO  (): Clicked on New Program Button
+[2019-05-14 17:34:45] INFO  (): Find the path for object
+[2019-05-14 17:34:46] INFO  (): Find the path for object
+[2019-05-14 17:34:53] INFO  (): Find the path for object
+[2019-05-14 17:34:53] INFO  (): Clicking on Add Program Product
+[2019-05-14 17:34:54] INFO  (): Find the path for object
+[2019-05-14 17:34:54] INFO  (): Setting the Product with Product Name -PFL_Auto_Product1
+[2019-05-14 17:35:07] INFO  (): yes, element appears 
+[2019-05-14 17:35:07] INFO  (): Find the path for object
+[2019-05-14 17:35:12] INFO  (): Find the path for object
+[2019-05-14 17:35:18] INFO  (): Find the path for object
+[2019-05-14 17:35:18] INFO  (): selected the checkbox successfully
+[2019-05-14 17:35:31] INFO  (): Find the path for object
+[2019-05-14 17:35:37] INFO  (): Find the path for object
+[2019-05-14 17:35:37] INFO  (): Verify program is activated : true
+[2019-05-14 17:35:37] INFO  (): entered in logout method
+[2019-05-14 17:35:38] INFO  (): logged out successfully
+[2019-05-14 17:35:43] INFO  (): Logout from current user
+[2019-05-14 17:35:43] INFO  (): Completed Before Block of TS:04..... 
+[2019-05-14 17:35:43] INFO  (): Started TS-01: Verify that Contact is associated with Campaign after Sending Swag related to Program 
+[2019-05-14 17:35:43] INFO  (): Logged in With deepak@metacubeautomation.com
+[2019-05-14 17:35:49] INFO  (): Clicking to Login Button
+[2019-05-14 17:36:01] INFO  (): Find the path for object
+[2019-05-14 17:36:17] INFO  (): clicked on go button first time
+[2019-05-14 17:36:17] INFO  (): Contact Name CON
+[2019-05-14 17:36:36] INFO  (): In classsic Version.
+[2019-05-14 17:36:00] INFO  (): already on classic
+[2019-05-14 17:36:49] INFO  (): Find the path for object
+[2019-05-14 17:36:49] INFO  (): Entered in Program Send Swag Screen
+[2019-05-14 17:36:49] INFO  (): trying to enter the text in search bar
+[2019-05-14 17:36:49] INFO  (): entered the search query
+[2019-05-14 17:36:49] INFO  (): Entered find
+[2019-05-14 17:37:00] INFO  (): Find the path for object
+[2019-05-14 17:37:05] INFO  (): Find the path for object
+[2019-05-14 17:37:11] INFO  (): Verify send swag confirmation message : true
+[2019-05-14 17:37:11] INFO  (): Find the path for object
+[2019-05-14 17:37:11] INFO  (): clicked on canvas OK button
+[2019-05-14 17:37:13] INFO  (): Find the path for object
+[2019-05-14 17:37:23] INFO  (): Verify associated campaign status under related list section on contact : true
+[2019-05-14 17:37:23] INFO  (): entered in logout method
+[2019-05-14 17:37:24] INFO  (): logged out successfully
+[2019-05-14 17:37:29] INFO  (): Logout from current user
+[2019-05-14 17:37:29] INFO  (): Completed Test case 04 . 
+[2019-05-14 17:37:32] INFO  (): Entering into After All Block TS:04 --
+[2019-05-14 17:37:32] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:36:49] INFO  (): Verify program on contact send marketing page : true
+[2019-05-14 17:38:13] INFO  (): Find the path for object
+[2019-05-14 17:37:55] INFO  (): Clicking to Login Button
+[2019-05-14 17:38:31] INFO  (): clicked on go button first time
+[2019-05-14 17:38:31] INFO  (): Contact Name CON
+[2019-05-14 17:38:39] INFO  (): Find the path for object
+[2019-05-14 17:38:06] INFO  (): already on classic
+[2019-05-14 17:38:44] INFO  (): order deleted successfully
+[2019-05-14 17:38:44] INFO  (): entered in logout method
+[2019-05-14 17:38:45] INFO  (): logged out successfully
+[2019-05-14 17:38:50] INFO  (): Logout from current user
+[2019-05-14 17:38:50] INFO  (): Before Block - TC05 Verify Successfully program created with multiple product associated with it and user able to send swag with multiple products 
+[2019-05-14 17:38:50] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:39:08] INFO  (): Find the path for object
+[2019-05-14 17:38:57] INFO  (): Clicking to Login Button
+[2019-05-14 17:39:25] INFO  (): Clicked on Admin Tile
+[2019-05-14 17:39:27] INFO  (): Clicked on New Program Button
+[2019-05-14 17:39:27] INFO  (): Find the path for object
+[2019-05-14 17:39:27] INFO  (): Find the path for object
+[2019-05-14 17:39:36] INFO  (): Find the path for object
+[2019-05-14 17:39:36] INFO  (): Clicking on Add Program Product
+[2019-05-14 17:39:36] INFO  (): Find the path for object
+[2019-05-14 17:39:37] INFO  (): Setting the Product with Product Name -PFL_Auto_Product1
+[2019-05-14 17:39:48] INFO  (): Find the path for object
+[2019-05-14 17:39:48] INFO  (): yes, element appears 
+[2019-05-14 17:39:53] INFO  (): Find the path for object
+[2019-05-14 17:39:58] INFO  (): Find the path for object
+[2019-05-14 17:39:58] INFO  (): selected the checkbox successfully
+[2019-05-14 17:40:12] INFO  (): Clicking on Add Program Product
+[2019-05-14 17:40:12] INFO  (): Find the path for object
+[2019-05-14 17:43:13] INFO  (): Script re-execution failed in 6 attempt with message
+[2019-05-14 17:43:13] ERROR  (): C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/node/finders.rb:43:in `block in find'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/node/base.rb:84:in `synchronize'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/node/finders.rb:32:in `find'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:698:in `block (2 levels) in <class:Session>'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:492:in `block (3 levels) in add_program_product_on_classic'
+C:/Users/Test/Google Drive/pflautomation/lib/FrameworkLib/utility_lib.rb:300:in `block in re_execute_script_block'
+C:/Users/Test/Google Drive/pflautomation/lib/FrameworkLib/utility_lib.rb:298:in `each'
+C:/Users/Test/Google Drive/pflautomation/lib/FrameworkLib/utility_lib.rb:298:in `re_execute_script_block'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:491:in `block (2 levels) in add_program_product_on_classic'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:333:in `block in within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/selenium/driver.rb:136:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:332:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:488:in `block in add_program_product_on_classic'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:333:in `block in within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/selenium/driver.rb:136:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:332:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:487:in `add_program_product_on_classic'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:479:in `add_program_product'
+C:/Users/Test/Google Drive/pflautomation/spec/TestCases/Smoke/TS05_Administration_Multiple_product.rb:31:in `block (2 levels) in <top (required)>'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:357:in `instance_exec'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:357:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:521:in `block in run_owned_hooks_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:520:in `each'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:520:in `run_owned_hooks_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:473:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb:494:in `block in run_before_context_hooks'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb:493:in `run_before_context_hooks'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb:542:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:119:in `block (3 levels) in run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:119:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:119:in `block (2 levels) in run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/configuration.rb:1680:in `with_suite_hooks'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:118:in `block in run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/reporter.rb:77:in `report'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:117:in `run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:93:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:78:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:45:in `invoke'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/exe/rspec:4:in `<main>'
+[2019-05-14 17:43:13] INFO  (): Script re_execution failed in all attempt
+[2019-05-14 17:43:13] INFO  (): Entering into After All Block TC:05 --
+[2019-05-14 17:43:13] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:43:20] INFO  (): Clicking to Login Button
+[2019-05-14 17:43:31] INFO  (): Find the path for object
+[2019-05-14 17:43:48] INFO  (): clicked on go button first time
+[2019-05-14 17:43:48] INFO  (): Contact Name CON
+[2019-05-14 17:43:30] INFO  (): already on classic
+[2019-05-14 17:43:59] INFO  (): No SwagIQ Order Available
+[2019-05-14 17:44:04] INFO  (): No SwagIQ Order Available
+[2019-05-14 17:44:04] INFO  (): entered in logout method
+[2019-05-14 17:44:06] INFO  (): logged out successfully
+[2019-05-14 17:44:11] INFO  (): Logout from current user
+[2019-05-14 17:44:11] INFO  (): Before Block - TC06 Verify Successfully program created with assignment type role with single product associated with it and user able to send swag.
+[2019-05-14 17:44:11] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:44:28] INFO  (): Find the path for object
+[2019-05-14 17:44:17] INFO  (): Clicking to Login Button
+[2019-05-14 17:44:45] INFO  (): Clicked on Admin Tile
+[2019-05-14 17:44:46] ERROR  (): C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/selenium-webdriver-3.9.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/selenium-webdriver-3.9.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/selenium-webdriver-3.9.0/lib/selenium/webdriver/remote/http/common.rb:81:in `new'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/selenium-webdriver-3.9.0/lib/selenium/webdriver/remote/http/common.rb:81:in `create_response'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/selenium-webdriver-3.9.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/selenium-webdriver-3.9.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/selenium-webdriver-3.9.0/lib/selenium/webdriver/remote/bridge.rb:164:in `execute'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/selenium-webdriver-3.9.0/lib/selenium/webdriver/remote/oss/bridge.rb:579:in `execute'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/selenium-webdriver-3.9.0/lib/selenium/webdriver/remote/oss/bridge.rb:267:in `execute_script'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/selenium-webdriver-3.9.0/lib/selenium/webdriver/common/driver.rb:211:in `execute_script'
+C:/Users/Test/Google Drive/pflautomation/lib/FrameworkLib/utility_lib.rb:201:in `scroll_to'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:249:in `block (2 levels) in click_classic_program_admin_tile'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:333:in `block in within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/selenium/driver.rb:136:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:332:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:243:in `block in click_classic_program_admin_tile'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:333:in `block in within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/selenium/driver.rb:136:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:332:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:242:in `click_classic_program_admin_tile'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:336:in `click_program_admin_tile'
+C:/Users/Test/Google Drive/pflautomation/spec/TestCases/Smoke/TS06_Administration_role_based_program.rb:18:in `block (2 levels) in <top (required)>'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:357:in `instance_exec'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:357:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:521:in `block in run_owned_hooks_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:520:in `each'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:520:in `run_owned_hooks_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:473:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb:494:in `block in run_before_context_hooks'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb:493:in `run_before_context_hooks'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb:542:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:119:in `block (3 levels) in run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:119:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:119:in `block (2 levels) in run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/configuration.rb:1680:in `with_suite_hooks'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:118:in `block in run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/reporter.rb:77:in `report'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:117:in `run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:93:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:78:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:45:in `invoke'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/exe/rspec:4:in `<main>'
+[2019-05-14 17:44:51] INFO  (): Entering into After All Block TC:06 --
+[2019-05-14 17:44:51] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:44:27] INFO  (): already on classic
+[2019-05-14 17:45:09] INFO  (): Find the path for object
+[2019-05-14 17:44:58] INFO  (): Clicking to Login Button
+[2019-05-14 17:45:26] INFO  (): clicked on go button first time
+[2019-05-14 17:45:26] INFO  (): Contact Name CON
+[2019-05-14 17:45:08] INFO  (): already on classic
+[2019-05-14 17:45:37] INFO  (): No SwagIQ Order Available
+[2019-05-14 17:45:37] INFO  (): Test Case Completed TC:06 --
+[2019-05-14 17:45:37] INFO  (): Starting TC-07: Verifying error message when quantity is exceeding than the available
+[2019-05-14 17:45:37] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:45:54] INFO  (): Find the path for object
+[2019-05-14 17:45:43] INFO  (): Clicking to Login Button
+[2019-05-14 17:46:12] INFO  (): Clicked on Admin Tile
+[2019-05-14 17:46:21] INFO  (): Started TC:08 Verify clicking select all enabled checkbox on Licenses page functionality
+[2019-05-14 17:46:21] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:45:53] INFO  (): already on classic
+[2019-05-14 17:47:00] INFO  (): Find the path for object
+[2019-05-14 17:46:42] INFO  (): Clicking to Login Button
+[2019-05-14 17:47:18] INFO  (): Clicked License Tab
+[2019-05-14 17:47:18] INFO  (): Find the path for object
+[2019-05-14 17:46:52] INFO  (): already on classic
+[2019-05-14 17:47:19] INFO  (): value of licenesed users before assignment is 15
+[2019-05-14 17:47:21] INFO  (): Find the path for object
+[2019-05-14 17:47:26] INFO  (): Modified Users label exists : true
+[2019-05-14 17:47:26] INFO  (): Find the path for object
+[2019-05-14 17:47:31] INFO  (): Is License check box checked for the user: true
+[2019-05-14 17:47:31] INFO  (): value of licenesed users before assignment is 16
+[2019-05-14 17:47:31] INFO  (): difference of license count before and after assignment is 1
+[2019-05-14 17:47:31] INFO  (): entered in logout method
+[2019-05-14 17:47:32] INFO  (): logged out successfully
+[2019-05-14 17:47:37] INFO  (): Logout from current user
+[2019-05-14 17:47:40] INFO  (): Entering into After All Block TC:08 --
+[2019-05-14 17:47:40] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:47:37] INFO  (): Completed TC-08 it block
+[2019-05-14 17:48:08] INFO  (): already on classic
+[2019-05-14 17:48:15] INFO  (): Find the path for object
+[2019-05-14 17:47:58] INFO  (): Clicking to Login Button
+[2019-05-14 17:48:33] INFO  (): Find the path for object
+[2019-05-14 17:48:36] INFO  (): Find the path for object
+[2019-05-14 17:48:36] INFO  (): Find the path for object
+[2019-05-14 17:48:36] INFO  (): entered in logout method
+[2019-05-14 17:48:38] INFO  (): logged out successfully
+[2019-05-14 17:48:44] INFO  (): Logout from current user
+[2019-05-14 17:48:44] INFO  (): Before Block - TC09: Verify Single user can consume all quantity using shared program based upon multiple users
+[2019-05-14 17:48:44] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:48:33] INFO  (): Clicked License Tab
+[2019-05-14 17:49:02] INFO  (): Find the path for object
+[2019-05-14 17:48:50] INFO  (): Clicking to Login Button
+[2019-05-14 17:49:19] INFO  (): Clicked on Admin Tile
+[2019-05-14 17:49:20] INFO  (): Clicked on New Program Button
+[2019-05-14 17:49:21] INFO  (): Find the path for object
+[2019-05-14 17:49:21] INFO  (): Find the path for object
+[2019-05-14 17:49:28] INFO  (): Find the path for object
+[2019-05-14 17:49:29] INFO  (): Clicking on Add Program Product
+[2019-05-14 17:49:29] INFO  (): Find the path for object
+[2019-05-14 17:49:30] INFO  (): Setting the Product with Product Name -PFL_Auto_Product1
+[2019-05-14 17:49:41] INFO  (): Assignment type selected is - User : true
+[2019-05-14 17:49:41] INFO  (): Find the path for object
+[2019-05-14 17:49:41] INFO  (): yes, element appears 
+[2019-05-14 17:49:46] INFO  (): Find the path for object
+[2019-05-14 17:49:52] INFO  (): Find the path for object
+[2019-05-14 17:49:52] INFO  (): selected the checkbox successfully
+[2019-05-14 17:50:11] INFO  (): Find the path for object
+[2019-05-14 17:50:11] INFO  (): yes, element appears 
+[2019-05-14 17:50:16] INFO  (): Find the path for object
+[2019-05-14 17:50:21] INFO  (): Find the path for object
+[2019-05-14 17:50:35] INFO  (): Find the path for object
+[2019-05-14 17:50:40] INFO  (): Find the path for object
+[2019-05-14 17:50:40] INFO  (): Program is activated : true
+[2019-05-14 17:50:41] INFO  (): Find the path for object
+[2019-05-14 17:50:58] INFO  (): Verify that created program appears in program list : true
+[2019-05-14 17:50:58] INFO  (): entered in logout method
+[2019-05-14 17:49:41] INFO  (): budget allocation selected is - Shared : true
+[2019-05-14 17:50:59] INFO  (): logged out successfully
+[2019-05-14 17:51:04] INFO  (): Logout from current user
+[2019-05-14 17:51:04] INFO  (): Completed Before Block of TC:09..... 
+[2019-05-14 17:51:04] INFO  (): Started TS-01: Verify valid user can create Shared type program successfully and user can consume all product quantity
+[2019-05-14 17:51:04] INFO  (): Logged in With nishant.jain@metacubeautomation.com
+[2019-05-14 17:50:21] INFO  (): selected the checkbox successfully
+[2019-05-14 17:51:13] INFO  (): Clicking to Login Button
+[2019-05-14 17:51:25] INFO  (): Find the path for object
+[2019-05-14 17:51:43] INFO  (): clicked on go button first time
+[2019-05-14 17:51:43] INFO  (): Contact Name CON
+[2019-05-14 17:52:07] INFO  (): In classsic Version.
+[2019-05-14 17:51:23] INFO  (): already on classic
+[2019-05-14 17:52:21] INFO  (): Find the path for object
+[2019-05-14 17:52:21] INFO  (): Entered in Program Send Swag Screen
+[2019-05-14 17:52:21] INFO  (): trying to enter the text in search bar
+[2019-05-14 17:52:21] INFO  (): entered the search query
+[2019-05-14 17:52:21] INFO  (): Entered find
+[2019-05-14 17:53:01] INFO  (): Waiting for object to appear times1
+[2019-05-14 17:53:05] INFO  (): Find the path for object
+[2019-05-14 17:53:10] INFO  (): Find the path for object
+[2019-05-14 17:53:16] INFO  (): Find the path for object
+[2019-05-14 17:53:16] INFO  (): clicked on canvas OK button
+[2019-05-14 17:53:18] INFO  (): Find the path for object
+[2019-05-14 17:53:26] INFO  (): entered in logout method
+[2019-05-14 17:53:27] INFO  (): logged out successfully
+[2019-05-14 17:53:32] INFO  (): Completed TS-01: Verify valid user can create Shared type program successfully and user can consume all product quantity
+[2019-05-14 17:53:32] INFO  (): Logout from current user
+[2019-05-14 17:53:35] INFO  (): Started TS-02: verifying from another user
+[2019-05-14 17:53:35] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:53:16] INFO  (): Confirmation message appears on final step of send swag : true
+[2019-05-14 17:54:10] INFO  (): Find the path for object
+[2019-05-14 17:53:53] INFO  (): Clicking to Login Button
+[2019-05-14 17:54:29] INFO  (): clicked on go button first time
+[2019-05-14 17:54:29] INFO  (): Contact Name CON
+[2019-05-14 17:54:49] INFO  (): In classsic Version.
+[2019-05-14 17:54:03] INFO  (): already on classic
+[2019-05-14 17:55:02] INFO  (): Verify program on contact send marketing page : true
+[2019-05-14 17:55:02] INFO  (): Find the path for object
+[2019-05-14 17:55:07] INFO  (): Verify program product quantity : true
+[2019-05-14 17:55:07] INFO  (): logged out successfully
+[2019-05-14 17:55:07] INFO  (): Logout from current user
+[2019-05-14 17:55:07] INFO  (): Completed TS-02: verifying from another user
+[2019-05-14 17:55:10] INFO  (): Entering into After All Block TC:09 --
+[2019-05-14 17:55:10] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:55:07] INFO  (): entered in logout method
+[2019-05-14 17:55:39] INFO  (): already on classic
+[2019-05-14 17:55:46] INFO  (): Find the path for object
+[2019-05-14 17:55:29] INFO  (): Clicking to Login Button
+[2019-05-14 17:56:12] INFO  (): Find the path for object
+[2019-05-14 17:56:17] INFO  (): order deleted successfully
+[2019-05-14 17:56:17] INFO  (): Started Before Block - TC10
+[2019-05-14 17:56:17] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:56:04] INFO  (): clicked on go button first time
+[2019-05-14 17:56:04] INFO  (): Contact Name CON
+[2019-05-14 17:56:34] INFO  (): already on classic
+[2019-05-14 17:56:45] INFO  (): Find the path for object
+[2019-05-14 17:56:47] INFO  (): Finding Xpath value 
+[2019-05-14 17:56:24] INFO  (): Clicking to Login Button
+[2019-05-14 17:57:17] INFO  (): entered in logout method
+[2019-05-14 17:57:19] INFO  (): logged out successfully
+[2019-05-14 17:57:24] INFO  (): Logout from current user
+[2019-05-14 17:57:24] INFO  (): Completed Before Block - TC10
+[2019-05-14 17:57:24] INFO  (): Started TC-10: Verify that License tab is visible to user, after assigning permission(Assign permission set) for custom profile
+[2019-05-14 17:57:24] INFO  (): Logged in With nishant.jain@metacubeautomation.com
+[2019-05-14 17:56:17] INFO  (): Test Case Completed TC:09 --
+[2019-05-14 17:57:42] INFO  (): Find the path for object
+[2019-05-14 17:57:31] INFO  (): Clicking to Login Button
+[2019-05-14 17:57:59] INFO  (): Finding Xpath value 
+[2019-05-14 17:57:59] INFO  (): Verify that License tab is visible to user : true
+[2019-05-14 17:57:59] INFO  (): Clicked License Tab
+[2019-05-14 17:57:59] INFO  (): Find the path for object
+[2019-05-14 17:57:59] INFO  (): entered in logout method
+[2019-05-14 17:57:41] INFO  (): already on classic
+[2019-05-14 17:58:03] INFO  (): logged out successfully
+[2019-05-14 17:58:08] INFO  (): Logout from current user
+[2019-05-14 17:58:10] INFO  (): Entering into After All Block TC:10 --
+[2019-05-14 17:58:10] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 17:58:08] INFO  (): Completed Test case 10
+[2019-05-14 17:58:56] INFO  (): already on classic
+[2019-05-14 17:59:12] INFO  (): Find the path for object
+[2019-05-14 17:59:16] INFO  (): Finding Xpath value 
+[2019-05-14 17:58:45] INFO  (): Clicking to Login Button
+[2019-05-14 17:59:44] INFO  (): entered in logout method
+[2019-05-14 17:59:45] INFO  (): logged out successfully
+[2019-05-14 17:59:50] INFO  (): Logout from current user
+[2019-05-14 17:59:50] INFO  (): Test Case Completed TC:10 --
+[2019-05-14 17:59:50] INFO  (): Browser launched and navigae to URL
+[2019-05-14 17:59:51] INFO  (): Find the path for object
+[2019-05-14 17:59:53] INFO  (): User loggin Successfully
+[2019-05-14 17:59:58] INFO  (): already on classic
+[2019-05-14 18:00:02] INFO  (): Find the path for object
+[2019-05-14 18:00:19] INFO  (): Clicked License Tab
+[2019-05-14 18:00:20] INFO  (): Find the path for object
+[2019-05-14 18:00:30] INFO  (): Verify Licenses page header : true
+[2019-05-14 18:00:30] INFO  (): Verify License page header : true
+[2019-05-14 18:00:30] INFO  (): search text box is available on license page true
+[2019-05-14 18:00:30] INFO  (): Verify search text box is present on License page : true
+[2019-05-14 18:00:35] INFO  (): Verify Profile column on license page : true
+[2019-05-14 18:00:40] INFO  (): Verify Name column on license page  : true
+[2019-05-14 18:00:45] INFO  (): Verify Title column on license page  : true
+[2019-05-14 18:00:50] INFO  (): Verify Role column on license page  : true
+[2019-05-14 18:00:55] INFO  (): Verify Country column on license page  : true
+[2019-05-14 18:01:00] INFO  (): Verify Region column on license page  : true
+[2019-05-14 18:01:05] INFO  (): Verify SwagIQ Admin Access column on license page  : true
+[2019-05-14 18:01:10] INFO  (): Perform search by User Name on license page  : true
+[2019-05-14 17:59:58] INFO  (): Started TC-11: Verify various functionalities of License page
+[2019-05-14 18:01:21] INFO  (): Perform search by Title on license page : true
+[2019-05-14 18:01:26] INFO  (): Perform search by Country on license page : true
+[2019-05-14 18:01:31] INFO  (): Perform search by Region on license page : true
+[2019-05-14 18:01:36] INFO  (): Perform search by SwagIQ Admin Access type on license page : true
+[2019-05-14 18:01:47] INFO  (): Verify that advanced search checkbox 'Name' is checked  : true
+[2019-05-14 18:01:47] INFO  (): Perform advanced search by User Name on license page : true
+[2019-05-14 18:02:02] INFO  (): Verify that advanced search checkbox 'Title' is checked  : true
+[2019-05-14 18:02:02] INFO  (): Perform advanced search by Title on license page : true
+[2019-05-14 18:02:18] INFO  (): Verify that advanced search checkbox 'Profile' is checked  : true
+[2019-05-14 18:02:18] INFO  (): Perform advanced search by Profile on license page : true
+[2019-05-14 18:02:33] INFO  (): Verify that advanced search checkbox 'Role' is checked  : true
+[2019-05-14 18:02:33] INFO  (): Perform advanced search by Role on license page : true
+[2019-05-14 18:02:49] INFO  (): Verify that advanced search checkbox 'Country' is checked  : true
+[2019-05-14 18:02:49] INFO  (): Perform advanced search by Country on license page : true
+[2019-05-14 18:03:04] INFO  (): Verify that advanced search checkbox 'Region' is checked  : true
+[2019-05-14 18:03:04] INFO  (): Perform advanced search by Region on license page : true
+[2019-05-14 18:03:20] INFO  (): Verify that advanced search checkbox 'SwagIQ Admin Access' is checked  : true
+[2019-05-14 18:03:20] INFO  (): Perform advanced search by SwagIQ Admin Access type on license page : true
+[2019-05-14 18:03:30] INFO  (): Completed TC-11: Verify various functionalities of License page
+[2019-05-14 18:03:32] INFO  (): Executing TC-12.FOR Verifying the select all Enabled checkbox , assign license to all users on page and License Count increased by number with selected count
+[2019-05-14 18:03:32] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:01:15] INFO  (): Perform search by Profile on license page : true
+[2019-05-14 18:04:12] INFO  (): Find the path for object
+[2019-05-14 18:03:53] INFO  (): Clicking to Login Button
+[2019-05-14 18:04:30] INFO  (): Find the path for object
+[2019-05-14 18:04:03] INFO  (): already on classic
+[2019-05-14 18:04:35] INFO  (): already All user license Disable
+[2019-05-14 18:04:40] INFO  (): total number of user is 16
+[2019-05-14 18:04:40] INFO  (): total number of licensed user is 16
+[2019-05-14 18:04:40] INFO  (): License assigned to all users : 16
+[2019-05-14 18:04:40] INFO  (): entered in logout method
+[2019-05-14 18:04:41] INFO  (): logged out successfully
+[2019-05-14 18:05:28] INFO  (): Find the path for object
+[2019-05-14 18:04:51] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:04:50] INFO  (): Starting TC-07: Verifying error message when quantity is exceeding than the available
+[2019-05-14 18:05:10] INFO  (): Clicking to Login Button
+[2019-05-14 18:05:46] INFO  (): Clicked on Admin Tile
+[2019-05-14 18:05:49] INFO  (): Clicked on New Program Button
+[2019-05-14 18:05:49] INFO  (): Find the path for object
+[2019-05-14 18:05:20] INFO  (): already on classic
+[2019-05-14 18:05:54] INFO  (): Find the path for object
+[2019-05-14 18:05:54] INFO  (): Finding Xpath value 
+[2019-05-14 18:06:06] INFO  (): Find the path for object
+[2019-05-14 18:06:23] INFO  (): Clicked on Admin Tile
+[2019-05-14 18:06:24] INFO  (): Find the path for object
+[2019-05-14 18:06:25] INFO  (): Find the path for object
+[2019-05-14 18:06:32] INFO  (): Find the path for object
+[2019-05-14 18:06:32] INFO  (): Clicking on Add Program Product
+[2019-05-14 18:06:33] INFO  (): Find the path for object
+[2019-05-14 18:06:33] INFO  (): Setting the Product with Product Name -PFL_Auto_Product5
+[2019-05-14 18:06:24] INFO  (): Clicked on New Program Button
+[2019-05-14 18:06:41] INFO  (): Before Block - TC014 running Verify that User with access level standard user could not access the Administrator tab and see the error message - You are not authorized to view that resource 
+[2019-05-14 18:06:41] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:07:17] INFO  (): Find the path for object
+[2019-05-14 18:07:00] INFO  (): Clicking to Login Button
+[2019-05-14 18:07:35] INFO  (): Find the path for object
+[2019-05-14 18:07:35] INFO  (): Clicked on User Tile
+[2019-05-14 18:07:10] INFO  (): already on classic
+[2019-05-14 18:07:41] INFO  (): Clicked on User Detail
+[2019-05-14 18:07:42] INFO  (): Find the path for object
+[2019-05-14 18:07:53] INFO  (): entered in logout method
+[2019-05-14 18:07:55] INFO  (): logged out successfully
+[2019-05-14 18:08:00] INFO  (): Logout from current user
+[2019-05-14 18:08:00] INFO  (): Completed Before Block of TC:14..... 
+[2019-05-14 18:08:00] INFO  (): Started TS-01: Verify that access level standard user can't access the Administrator Tab and see the message -You are not authorized to view that resource 
+[2019-05-14 18:08:00] INFO  (): Logged in With amit@metacubeautomation.com
+[2019-05-14 18:08:18] INFO  (): Find the path for object
+[2019-05-14 18:08:07] INFO  (): Clicking to Login Button
+[2019-05-14 18:08:36] INFO  (): Verifying access level standard user for_administration_tab msg :true.
+[2019-05-14 18:08:36] INFO  (): entered in logout method
+[2019-05-14 18:08:37] INFO  (): logged out successfully
+[2019-05-14 18:08:17] INFO  (): already on classic
+[2019-05-14 18:08:42] INFO  (): Logout from current user
+[2019-05-14 18:08:42] INFO  (): Completed Test case 14 . 
+[2019-05-14 18:08:45] INFO  (): Entering into After All Block TS:14 --
+[2019-05-14 18:08:45] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:09:21] INFO  (): Find the path for object
+[2019-05-14 18:09:03] INFO  (): Clicking to Login Button
+[2019-05-14 18:09:38] INFO  (): Find the path for object
+[2019-05-14 18:09:38] INFO  (): Clicked on User Tile
+[2019-05-14 18:09:45] INFO  (): Clicked on User Detail
+[2019-05-14 18:09:46] INFO  (): Find the path for object
+[2019-05-14 18:09:57] INFO  (): entered in logout method
+[2019-05-14 18:09:58] INFO  (): logged out successfully
+[2019-05-14 18:10:03] INFO  (): Logout from current user
+[2019-05-14 18:10:03] INFO  (): Test Case Completed TS:14 --
+[2019-05-14 18:10:03] INFO  (): Started TC-15: Verify that after clicking send swag, user gets address page to fill in if he has incomplete address 
+[2019-05-14 18:10:03] INFO  (): Logged in With nishant.jain@metacubeautomation.com
+[2019-05-14 18:09:13] INFO  (): already on classic
+[2019-05-14 18:10:21] INFO  (): Find the path for object
+[2019-05-14 18:10:10] INFO  (): Clicking to Login Button
+[2019-05-14 18:10:20] INFO  (): already on classic
+[2019-05-14 18:10:52] INFO  (): Finding Xpath value 
+[2019-05-14 18:10:52] INFO  (): Required Element found on Page contact address icon :true.
+[2019-05-14 18:10:57] INFO  (): In classsic Version.
+[2019-05-14 18:11:05] INFO  (): Finding Xpath value 
+[2019-05-14 18:11:05] INFO  (): Required Element found on Page city is required :true.
+[2019-05-14 18:11:05] INFO  (): Finding Xpath value 
+[2019-05-14 18:11:05] INFO  (): Required Element found on Page state is required :true.
+[2019-05-14 18:11:05] INFO  (): Finding Xpath value 
+[2019-05-14 18:11:05] INFO  (): Required Element found on Page phone is required :true.
+[2019-05-14 18:11:26] INFO  (): Find the path for object
+[2019-05-14 18:11:26] INFO  (): Entered in Program Send Swag Screen
+[2019-05-14 18:11:26] INFO  (): trying to enter the text in search bar
+[2019-05-14 18:11:26] INFO  (): entered the search query
+[2019-05-14 18:11:26] INFO  (): Entered find
+[2019-05-14 18:11:42] INFO  (): Find the path for object
+[2019-05-14 18:11:47] INFO  (): Find the path for object
+[2019-05-14 18:11:53] INFO  (): Find the path for object
+[2019-05-14 18:11:53] INFO  (): clicked on canvas OK button
+[2019-05-14 18:11:58] INFO  (): Find the path for object
+[2019-05-14 18:11:58] INFO  (): entered in logout method
+[2019-05-14 18:11:59] INFO  (): logged out successfully
+[2019-05-14 18:12:04] INFO  (): Logout from current user
+[2019-05-14 18:12:04] INFO  (): Completed Test case 15 . 
+[2019-05-14 18:12:07] INFO  (): Started TC-16: Verify that if limit exceeds of the entered text in input boxes then it produces validation error
+[2019-05-14 18:12:07] INFO  (): Logged in With nishant.jain@metacubeautomation.com
+[2019-05-14 18:11:53] INFO  (): Verify confirmation msg on send swag :true.
+[2019-05-14 18:12:46] INFO  (): Find the path for object
+[2019-05-14 18:13:22] INFO  (): Clicking to Login Button
+[2019-05-14 18:13:03] INFO  (): Starting TC-07: Verifying error message when quantity is exceeding than the available
+[2019-05-14 18:13:03] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:13:05] INFO  (): clicked on go button first time
+[2019-05-14 18:13:05] INFO  (): Contact Name CON
+[2019-05-14 18:12:39] INFO  (): already on classic
+[2019-05-14 18:14:02] INFO  (): Verify error message for the field Address Line 1 : true
+[2019-05-14 18:14:02] INFO  (): Verify error message for the field Address Line 2 : true
+[2019-05-14 18:14:02] INFO  (): Verify error message for the field City : true
+[2019-05-14 18:14:02] INFO  (): Verify error message for the field State : true
+[2019-05-14 18:14:02] INFO  (): Verify error message for the field Country : true
+[2019-05-14 18:14:02] INFO  (): Verify error message for the field Phone : true
+[2019-05-14 18:14:02] INFO  (): Verify error message for the field Company : true
+[2019-05-14 18:14:02] INFO  (): Verify error message for the field Postal Code : true
+[2019-05-14 18:14:49] INFO  (): Find the path for object
+[2019-05-14 18:14:49] INFO  (): Entered in Program Send Swag Screen
+[2019-05-14 18:14:49] INFO  (): trying to enter the text in search bar
+[2019-05-14 18:14:49] INFO  (): entered the search query
+[2019-05-14 18:14:49] INFO  (): Entered find
+[2019-05-14 18:15:00] INFO  (): Find the path for object
+[2019-05-14 18:15:05] INFO  (): Find the path for object
+[2019-05-14 18:15:11] INFO  (): Verify Send Swag confirmation message : true
+[2019-05-14 18:15:11] INFO  (): Find the path for object
+[2019-05-14 18:15:11] INFO  (): clicked on canvas OK button
+[2019-05-14 18:15:13] INFO  (): Find the path for object
+[2019-05-14 18:15:13] INFO  (): Verify SwagIQ order status equals Submitted under related list : true
+[2019-05-14 18:15:13] INFO  (): entered in logout method
+[2019-05-14 18:15:14] INFO  (): logged out successfully
+[2019-05-14 18:15:19] INFO  (): Logout from current user
+[2019-05-14 18:15:19] INFO  (): Completed TC-16: Verify that if limit exceeds of the entered text in input boxes then it produces validation error
+[2019-05-14 18:15:21] INFO  (): Entering into After All Block TC:16 --
+[2019-05-14 18:15:21] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:15:39] INFO  (): Clicking to Login Button
+[2019-05-14 18:15:57] INFO  (): Find the path for object
+[2019-05-14 18:16:15] INFO  (): clicked on go button first time
+[2019-05-14 18:16:15] INFO  (): Contact Name CON
+[2019-05-14 18:15:50] INFO  (): already on classic
+[2019-05-14 18:16:24] INFO  (): Find the path for object
+[2019-05-14 18:16:29] INFO  (): order deleted successfully
+[2019-05-14 18:16:29] INFO  (): Test Case Completed TC:16 --
+[2019-05-14 18:16:29] INFO  (): Browser launched and navigae to URL
+[2019-05-14 18:16:30] INFO  (): Find the path for object
+[2019-05-14 18:16:33] INFO  (): User loggin Successfully
+[2019-05-14 18:16:38] INFO  (): already on classic
+[2019-05-14 18:16:39] INFO  (): Find the path for object
+[2019-05-14 18:16:56] INFO  (): clicked on go button first time
+[2019-05-14 18:16:56] INFO  (): Contact Name CON
+[2019-05-14 18:16:38] INFO  (): Starting TC-17: Verify User is not able to Send Swag if Do Not Swag field is enabled for Contact
+[2019-05-14 18:17:21] INFO  (): Entering into After All Block TC:17 --
+[2019-05-14 18:17:21] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:17:58] INFO  (): Find the path for object
+[2019-05-14 18:17:40] INFO  (): Clicking to Login Button
+[2019-05-14 18:18:16] INFO  (): clicked on go button first time
+[2019-05-14 18:18:16] INFO  (): Contact Name CON
+[2019-05-14 18:18:33] INFO  (): entered in logout method
+[2019-05-14 18:17:50] INFO  (): already on classic
+[2019-05-14 18:18:39] INFO  (): Logout from current user
+[2019-05-14 18:18:39] INFO  (): Test Case Completed TC:17 --
+[2019-05-14 18:18:39] INFO  (): Browser launched and navigae to URL
+[2019-05-14 18:18:39] INFO  (): Find the path for object
+[2019-05-14 18:18:42] INFO  (): User loggin Successfully
+[2019-05-14 18:18:48] INFO  (): Find the path for object
+[2019-05-14 18:18:34] INFO  (): logged out successfully
+[2019-05-14 18:19:05] INFO  (): clicked on go button first time
+[2019-05-14 18:19:05] INFO  (): Contact Name CON
+[2019-05-14 18:19:23] INFO  (): In classsic Version.
+[2019-05-14 18:18:47] INFO  (): already on classic
+[2019-05-14 18:18:47] INFO  (): Started Before Block - TC18: Verify that tasks are created when SwagIQ Order status is changed to Order Confirmed, Shipped and Delivered
+[2019-05-14 18:19:31] INFO  (): Find the path for object
+[2019-05-14 18:19:31] INFO  (): Entered in Program Send Swag Screen
+[2019-05-14 18:19:31] INFO  (): trying to enter the text in search bar
+[2019-05-14 18:19:31] INFO  (): entered the search query
+[2019-05-14 18:19:31] INFO  (): Entered find
+[2019-05-14 18:19:42] INFO  (): Find the path for object
+[2019-05-14 18:19:47] INFO  (): Find the path for object
+[2019-05-14 18:19:53] INFO  (): Verify send swag confirmation message : true
+[2019-05-14 18:19:53] INFO  (): Find the path for object
+[2019-05-14 18:19:53] INFO  (): clicked on canvas OK button
+[2019-05-14 18:19:55] INFO  (): Find the path for object
+[2019-05-14 18:19:55] INFO  (): Verify swag iq order status under related list is - Submitted : true
+[2019-05-14 18:19:55] INFO  (): entered in logout method
+[2019-05-14 18:20:01] INFO  (): Logout from current user
+[2019-05-14 18:20:01] INFO  (): Completed Before Block - TC18: Verify that tasks are created when SwagIQ Order status is changed to Order Confirmed, Shipped and Delivered
+[2019-05-14 18:20:01] INFO  (): Starting TC-18: Verify that tasks are created Under Activity History when SwagIQ Order status changed to Order Confirmed
+[2019-05-14 18:20:01] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:19:56] INFO  (): logged out successfully
+[2019-05-14 18:20:18] INFO  (): Find the path for object
+[2019-05-14 18:20:07] INFO  (): Clicking to Login Button
+[2019-05-14 18:20:35] INFO  (): clicked on go button first time
+[2019-05-14 18:20:17] INFO  (): already on classic
+[2019-05-14 18:20:55] INFO  (): Find the path for object
+[2019-05-14 18:20:35] INFO  (): Contact Name CON
+[2019-05-14 18:21:12] INFO  (): clicked on go button first time
+[2019-05-14 18:21:12] INFO  (): Contact Name CON
+[2019-05-14 18:21:18] INFO  (): SwagIQ Order Confirmed
+[2019-05-14 18:21:18] INFO  (): Verify swag iq order status under related list is - confirmed : true
+[2019-05-14 18:21:19] INFO  (): Find the path for object
+[2019-05-14 18:21:35] INFO  (): clicked on go button first time
+[2019-05-14 18:21:18] INFO  (): Verify that tasks are created Under Activity History when SwagIQ Order status changed to Shipped
+[2019-05-14 18:21:55] INFO  (): Find the path for object
+[2019-05-14 18:21:35] INFO  (): Contact Name CON
+[2019-05-14 18:22:12] INFO  (): clicked on go button first time
+[2019-05-14 18:22:12] INFO  (): Contact Name CON
+[2019-05-14 18:22:18] INFO  (): SwagIQ Order Shipped
+[2019-05-14 18:22:18] INFO  (): Verify swag iq order status under related list is - shipped : true
+[2019-05-14 18:22:19] INFO  (): Find the path for object
+[2019-05-14 18:22:36] INFO  (): clicked on go button first time
+[2019-05-14 18:22:18] INFO  (): Verify that tasks are created Under Activity History when SwagIQ Order status changed to Delivered
+[2019-05-14 18:22:55] INFO  (): Find the path for object
+[2019-05-14 18:22:36] INFO  (): Contact Name CON
+[2019-05-14 18:23:12] INFO  (): clicked on go button first time
+[2019-05-14 18:23:12] INFO  (): Contact Name CON
+[2019-05-14 18:23:18] INFO  (): SwagIQ Order Delivered
+[2019-05-14 18:23:18] INFO  (): Verify swag iq order status under related list is - delivered : true
+[2019-05-14 18:23:18] INFO  (): entered in logout method
+[2019-05-14 18:23:19] INFO  (): logged out successfully
+[2019-05-14 18:23:24] INFO  (): Logout from current user
+[2019-05-14 18:23:24] INFO  (): Completed TC-18 it block
+[2019-05-14 18:23:27] INFO  (): Entering into After All Block TC:18 --
+[2019-05-14 18:23:27] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:24:03] INFO  (): Find the path for object
+[2019-05-14 18:23:46] INFO  (): Clicking to Login Button
+[2019-05-14 18:24:21] INFO  (): clicked on go button first time
+[2019-05-14 18:24:21] INFO  (): Contact Name CON
+[2019-05-14 18:24:29] INFO  (): Find the path for object
+[2019-05-14 18:23:56] INFO  (): already on classic
+[2019-05-14 18:24:34] INFO  (): order deleted successfully
+[2019-05-14 18:24:34] INFO  (): entered in logout method
+[2019-05-14 18:24:35] INFO  (): logged out successfully
+[2019-05-14 18:24:40] INFO  (): Logout from current user
+[2019-05-14 18:24:40] INFO  (): Before Block  TC-19.FOR Verifying that Swag Last Sent Date field on the Contact object is updated when send swag performed
+[2019-05-14 18:24:40] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:24:57] INFO  (): Find the path for object
+[2019-05-14 18:24:46] INFO  (): Clicking to Login Button
+[2019-05-14 18:25:15] INFO  (): clicked on go button first time
+[2019-05-14 18:25:15] INFO  (): Contact Name CON
+[2019-05-14 18:24:40] INFO  (): Test Case Completed TC:18 --
+[2019-05-14 18:24:57] INFO  (): already on classic
+[2019-05-14 18:25:27] INFO  (): entered in logout method
+[2019-05-14 18:25:30] INFO  (): logged out successfully
+[2019-05-14 18:25:30] INFO  (): Logout from current user
+[2019-05-14 18:25:30] INFO  (): Before Block completed for TC:19
+[2019-05-14 18:25:30] INFO  (): Started TC 19 : Verify that Swag Last Sent Date field updated when Swag swag performed on contact
+[2019-05-14 18:25:30] INFO  (): Logged in With rani.dixit@metacubeautomation.com
+[2019-05-14 18:25:47] INFO  (): Find the path for object
+[2019-05-14 18:25:36] INFO  (): Clicking to Login Button
+[2019-05-14 18:26:04] INFO  (): clicked on go button first time
+[2019-05-14 18:26:04] INFO  (): Contact Name CON
+[2019-05-14 18:25:47] INFO  (): already on classic
+[2019-05-14 18:26:35] INFO  (): Entered in Program Send Swag Screen
+[2019-05-14 18:26:35] INFO  (): Find the path for object
+[2019-05-14 18:26:35] INFO  (): trying to enter the text in search bar
+[2019-05-14 18:26:35] INFO  (): entered the search query
+[2019-05-14 18:26:35] INFO  (): Entered find
+[2019-05-14 18:26:57] INFO  (): Find the path for object
+[2019-05-14 18:27:02] INFO  (): Find the path for object
+[2019-05-14 18:27:08] INFO  (): confirmation msg appears after send swag  : true 
+[2019-05-14 18:27:08] INFO  (): Find the path for object
+[2019-05-14 18:27:08] INFO  (): clicked on canvas OK button
+[2019-05-14 18:27:11] INFO  (): Find the path for object
+[2019-05-14 18:27:11] INFO  (): Verify the SwagIQ Order Under Related list  : true 
+[2019-05-14 18:27:11] INFO  (): Verify that Swag Last Date is Today  : true 
+[2019-05-14 18:27:11] INFO  (): entered in logout method
+[2019-05-14 18:27:12] INFO  (): logged out successfully
+[2019-05-14 18:27:17] INFO  (): Logout from current user
+[2019-05-14 18:27:17] INFO  (): Completed Test Step -1 for  TC:19
+[2019-05-14 18:27:19] INFO  (): Entering into After All Block TS:19 --
+[2019-05-14 18:27:19] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:27:37] INFO  (): Clicking to Login Button
+[2019-05-14 18:27:54] INFO  (): Find the path for object
+[2019-05-14 18:28:14] INFO  (): clicked on go button first time
+[2019-05-14 18:28:14] INFO  (): Contact Name CON
+[2019-05-14 18:27:47] INFO  (): already on classic
+[2019-05-14 18:28:25] INFO  (): Find the path for object
+[2019-05-14 18:28:30] INFO  (): order deleted successfully
+[2019-05-14 18:28:30] INFO  (): Test Case Completed TS:19 --
+[2019-05-14 18:28:30] INFO  (): Started  TC-20.FOR Verify that validation message displayed to user if no program is associated  to user on send swag screen
+[2019-05-14 18:28:30] INFO  (): Logged in With amit@metacubeautomation.com
+[2019-05-14 18:28:47] INFO  (): Find the path for object
+[2019-05-14 18:28:36] INFO  (): Clicking to Login Button
+[2019-05-14 18:29:04] INFO  (): clicked on go button first time
+[2019-05-14 18:29:04] INFO  (): Contact Name CON
+[2019-05-14 18:28:46] INFO  (): already on classic
+[2019-05-14 18:29:46] INFO  (): In classsic Version.
+[2019-05-14 18:29:54] INFO  (): Find the path for object
+[2019-05-14 18:29:54] INFO  (): Verify error msg if no program associated with User  : true 
+[2019-05-14 18:29:59] INFO  (): entered in logout method
+[2019-05-14 18:29:59] INFO  (): logged out successfully
+[2019-05-14 18:29:59] INFO  (): Logout from current user
+[2019-05-14 18:29:59] INFO  (): completed for TC:20 ....
+[2019-05-14 18:30:02] INFO  (): Before Block  TC-21.FOR Verifying the enable/disable state of program and its impact on send Swag
+[2019-05-14 18:30:02] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:30:40] INFO  (): Find the path for object
+[2019-05-14 18:30:21] INFO  (): Clicking to Login Button
+[2019-05-14 18:31:01] INFO  (): Clicked on Admin Tile
+[2019-05-14 18:31:03] INFO  (): Clicked on New Program Button
+[2019-05-14 18:31:03] INFO  (): Find the path for object
+[2019-05-14 18:31:04] INFO  (): Find the path for object
+[2019-05-14 18:31:11] INFO  (): Find the path for object
+[2019-05-14 18:31:11] INFO  (): Clicking on Add Program Product
+[2019-05-14 18:31:12] INFO  (): Find the path for object
+[2019-05-14 18:31:12] INFO  (): Setting the Product with Product Name -PFL_Auto_Product1
+[2019-05-14 18:31:18] INFO  (): Find the path for object
+[2019-05-14 18:31:18] INFO  (): yes, element appears 
+[2019-05-14 18:31:23] INFO  (): Find the path for object
+[2019-05-14 18:31:29] INFO  (): Find the path for object
+[2019-05-14 18:31:29] INFO  (): selected the checkbox successfully
+[2019-05-14 18:31:42] INFO  (): Find the path for object
+[2019-05-14 18:31:48] INFO  (): Find the path for object
+[2019-05-14 18:31:48] INFO  (): Verify active program state  : true 
+[2019-05-14 18:31:48] INFO  (): entered in logout method
+[2019-05-14 18:31:55] INFO  (): Logout from current user
+[2019-05-14 18:31:55] INFO  (): Before Block completed for TC:21
+[2019-05-14 18:31:55] INFO  (): Started TC 21 : Verifying the activation of program by sending swag
+[2019-05-14 18:31:55] INFO  (): Logged in With rani.dixit@metacubeautomation.com
+[2019-05-14 18:32:20] INFO  (): Clicking to Login Button
+[2019-05-14 18:31:49] INFO  (): logged out successfully
+[2019-05-14 18:32:32] INFO  (): Find the path for object
+[2019-05-14 18:32:55] INFO  (): clicked on go button first time
+[2019-05-14 18:32:30] INFO  (): already on classic
+[2019-05-14 18:33:19] INFO  (): In classsic Version.
+[2019-05-14 18:33:27] INFO  (): Find the path for object
+[2019-05-14 18:33:27] INFO  (): Entered in Program Send Swag Screen
+[2019-05-14 18:33:27] INFO  (): trying to enter the text in search bar
+[2019-05-14 18:33:28] INFO  (): entered the search query
+[2019-05-14 18:33:28] INFO  (): Entered find
+[2019-05-14 18:33:38] INFO  (): Find the path for object
+[2019-05-14 18:33:43] INFO  (): Find the path for object
+[2019-05-14 18:33:49] INFO  (): Verify active program on contact Send Swag page  : true 
+[2019-05-14 18:33:49] INFO  (): Find the path for object
+[2019-05-14 18:33:49] INFO  (): clicked on canvas OK button
+[2019-05-14 18:33:57] INFO  (): Find the path for object
+[2019-05-14 18:33:57] INFO  (): entered in logout method
+[2019-05-14 18:33:58] INFO  (): logged out successfully
+[2019-05-14 18:34:05] INFO  (): Logout from current user
+[2019-05-14 18:34:06] INFO  (): Completed Test Step -1 for  TC:21
+[2019-05-14 18:34:16] INFO  (): Started TC 21 : Verifying the deactivation of program by sending swag
+[2019-05-14 18:34:16] INFO  (): Logged in With rani.dixit@metacubeautomation.com
+[2019-05-14 18:32:55] INFO  (): Contact Name CON
+[2019-05-14 18:34:57] INFO  (): Find the path for object
+[2019-05-14 18:34:43] INFO  (): Clicking to Login Button
+[2019-05-14 18:35:23] INFO  (): Clicked on Admin Tile
+[2019-05-14 18:34:53] INFO  (): already on classic
+[2019-05-14 18:35:56] INFO  (): Find the path for object
+[2019-05-14 18:35:57] INFO  (): Find the path for object
+[2019-05-14 18:36:15] INFO  (): clicked on go button first time
+[2019-05-14 18:36:15] INFO  (): Contact Name CON
+[2019-05-14 18:36:35] INFO  (): In classsic Version.
+[2019-05-14 18:35:56] INFO  (): Verify inactive program : true 
+[2019-05-14 18:36:48] INFO  (): Verify inactive program on contact Send Swag page  : true 
+[2019-05-14 18:36:48] INFO  (): entered in logout method
+[2019-05-14 18:36:55] INFO  (): Logout from current user
+[2019-05-14 18:36:55] INFO  (): Completed Test Step -2 for  TC:21
+[2019-05-14 18:36:57] INFO  (): Entering into After All Block TS:21 --
+[2019-05-14 18:36:57] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:36:50] INFO  (): logged out successfully
+[2019-05-14 18:37:34] INFO  (): Find the path for object
+[2019-05-14 18:37:16] INFO  (): Clicking to Login Button
+[2019-05-14 18:37:52] INFO  (): clicked on go button first time
+[2019-05-14 18:37:52] INFO  (): Contact Name CON
+[2019-05-14 18:37:27] INFO  (): already on classic
+[2019-05-14 18:38:00] INFO  (): Find the path for object
+[2019-05-14 18:38:05] INFO  (): order deleted successfully
+[2019-05-14 18:38:05] INFO  (): entered in logout method
+[2019-05-14 18:38:11] INFO  (): Logout from current user
+[2019-05-14 18:38:11] INFO  (): Test Case Completed TS:21 --
+[2019-05-14 18:38:11] INFO  (): Started TC 22 : Verifying Active State of Product on Product Administration
+[2019-05-14 18:38:11] INFO  (): Logged in With rani.dixit@metacubeautomation.com
+[2019-05-14 18:38:06] INFO  (): logged out successfully
+[2019-05-14 18:38:28] INFO  (): Find the path for object
+[2019-05-14 18:38:17] INFO  (): Clicking to Login Button
+[2019-05-14 18:38:47] INFO  (): Find the path for object
+[2019-05-14 18:39:00] INFO  (): Find the path for object
+[2019-05-14 18:39:11] INFO  (): Find the path for object
+[2019-05-14 18:39:00] INFO  (): Finding Xpath value 
+[2019-05-14 18:39:30] INFO  (): Clicked on Admin Tile
+[2019-05-14 18:39:31] INFO  (): Clicked on New Program Button
+[2019-05-14 18:39:32] INFO  (): Find the path for object
+[2019-05-14 18:39:32] INFO  (): Find the path for object
+[2019-05-14 18:39:39] INFO  (): Find the path for object
+[2019-05-14 18:39:40] INFO  (): Clicking on Add Program Product
+[2019-05-14 18:39:40] INFO  (): Find the path for object
+[2019-05-14 18:39:41] INFO  (): Setting the Product with Product Name -PFL_Auto_Product4
+[2019-05-14 18:39:41] INFO  (): Verify xpath active selecting product in program : true 
+[2019-05-14 18:39:41] INFO  (): entered in logout method
+[2019-05-14 18:39:42] INFO  (): logged out successfully
+[2019-05-14 18:39:47] INFO  (): Logout from current user
+[2019-05-14 18:39:47] INFO  (): Completed Test Step -1 for TC:22
+[2019-05-14 18:39:50] INFO  (): Started   Test Step -2 for TC 22 : Verifying Active State of Product on Product Administration
+[2019-05-14 18:39:50] INFO  (): Logged in With rani.dixit@metacubeautomation.com
+[2019-05-14 18:40:27] INFO  (): Find the path for object
+[2019-05-14 18:40:14] INFO  (): Clicking to Login Button
+[2019-05-14 18:40:49] INFO  (): Find the path for object
+[2019-05-14 18:41:02] INFO  (): Find the path for object
+[2019-05-14 18:41:13] INFO  (): Find the path for object
+[2019-05-14 18:41:31] INFO  (): Clicked on Admin Tile
+[2019-05-14 18:41:32] INFO  (): Clicked on New Program Button
+[2019-05-14 18:41:32] INFO  (): Find the path for object
+[2019-05-14 18:41:32] INFO  (): Find the path for object
+[2019-05-14 18:41:39] INFO  (): Find the path for object
+[2019-05-14 18:41:40] INFO  (): Clicking on Add Program Product
+[2019-05-14 18:41:40] INFO  (): Find the path for object
+[2019-05-14 18:41:41] INFO  (): Setting the Product with Product Name -PFL_Auto_Product4
+[2019-05-14 18:41:41] INFO  (): Verify error msg for unavailable product  : true 
+[2019-05-14 18:41:41] INFO  (): entered in logout method
+[2019-05-14 18:41:47] INFO  (): Logout from current user
+[2019-05-14 18:41:47] INFO  (): Completed Test Step -2 for  TC:22
+[2019-05-14 18:41:50] INFO  (): Entering into After All Block TS:22 --
+[2019-05-14 18:41:50] INFO  (): Logged in With rani.dixit@metacubeautomation.com
+[2019-05-14 18:41:42] INFO  (): logged out successfully
+[2019-05-14 18:42:22] INFO  (): Find the path for object
+[2019-05-14 18:42:10] INFO  (): Clicking to Login Button
+[2019-05-14 18:42:45] INFO  (): Find the path for object
+[2019-05-14 18:42:58] INFO  (): Find the path for object
+[2019-05-14 18:42:58] INFO  (): Finding Xpath value 
+[2019-05-14 18:42:20] INFO  (): already on classic
+[2019-05-14 18:43:08] INFO  (): entered in logout method
+[2019-05-14 18:43:09] INFO  (): logged out successfully
+[2019-05-14 18:43:14] INFO  (): Logout from current user
+[2019-05-14 18:43:14] INFO  (): Before Block  TC-23.FOR Verifying the Removal of user from Store on User Administrator
+[2019-05-14 18:43:14] INFO  (): Logged in With rani.dixit@metacubeautomation.com
+[2019-05-14 18:43:29] INFO  (): Find the path for object
+[2019-05-14 18:43:18] INFO  (): Clicking to Login Button
+[2019-05-14 18:43:48] INFO  (): Find the path for object
+[2019-05-14 18:43:48] INFO  (): Clicked on User Tile
+[2019-05-14 18:43:55] INFO  (): Clicked on User Detail
+[2019-05-14 18:43:55] INFO  (): Find the path for object
+[2019-05-14 18:43:56] INFO  (): Clicked on Remove Button
+[2019-05-14 18:43:56] INFO  (): Find the path for object
+[2019-05-14 18:44:01] INFO  (): entered in logout method
+[2019-05-14 18:44:03] INFO  (): logged out successfully
+[2019-05-14 18:44:08] INFO  (): Logout from current user
+[2019-05-14 18:44:08] INFO  (): Completed Before Block of TC:23 ..... 
+[2019-05-14 18:44:08] INFO  (): Started TS-01: Verifying the remove user into the Store 
+[2019-05-14 18:44:08] INFO  (): Logged in With amit@metacubeautomation.com
+[2019-05-14 18:43:29] INFO  (): already on classic
+[2019-05-14 18:44:24] INFO  (): Find the path for object
+[2019-05-14 18:44:13] INFO  (): Clicking to Login Button
+[2019-05-14 18:44:43] INFO  (): Verifying access level standard user for_administration_tab msg :true.
+[2019-05-14 18:44:43] INFO  (): entered in logout method
+[2019-05-14 18:44:24] INFO  (): already on classic
+[2019-05-14 18:44:49] INFO  (): Logout from current user
+[2019-05-14 18:44:49] INFO  (): Completed Test case 23 . 
+[2019-05-14 18:44:51] INFO  (): Entering into After All Block TS:23 --
+[2019-05-14 18:44:51] INFO  (): Logged in With rani.dixit@metacubeautomation.com
+[2019-05-14 18:44:44] INFO  (): logged out successfully
+[2019-05-14 18:45:24] INFO  (): Find the path for object
+[2019-05-14 18:45:11] INFO  (): Clicking to Login Button
+[2019-05-14 18:45:46] INFO  (): Find the path for object
+[2019-05-14 18:45:46] INFO  (): Clicked on User Tile
+[2019-05-14 18:45:21] INFO  (): already on classic
+[2019-05-14 18:45:59] INFO  (): Find the path for object
+[2019-05-14 18:46:09] INFO  (): entered in logout method
+[2019-05-14 18:46:10] INFO  (): logged out successfully
+[2019-05-14 18:46:15] INFO  (): Logout from current user
+[2019-05-14 18:46:15] INFO  (): Started TC 24 : Verifying user is able to Create program  
+[2019-05-14 18:46:15] INFO  (): Logged in With rani.dixit@metacubeautomation.com
+[2019-05-14 18:46:20] INFO  (): Clicking to Login Button
+[2019-05-14 18:46:31] INFO  (): Find the path for object
+[2019-05-14 18:46:50] INFO  (): Clicked on Admin Tile
+[2019-05-14 18:46:51] INFO  (): Clicked on New Program Button
+[2019-05-14 18:46:51] INFO  (): Find the path for object
+[2019-05-14 18:46:52] INFO  (): Find the path for object
+[2019-05-14 18:47:00] INFO  (): Find the path for object
+[2019-05-14 18:47:00] INFO  (): Clicking on Add Program Product
+[2019-05-14 18:47:00] INFO  (): Find the path for object
+[2019-05-14 18:47:01] INFO  (): Setting the Product with Product Name -PFL_Auto_Product1
+[2019-05-14 18:47:07] INFO  (): Verifying Content on page for admin_program_assignment_type_user  :true.
+[2019-05-14 18:47:07] INFO  (): Verifying Content on page for budget distributed  :true.
+[2019-05-14 18:47:07] INFO  (): Find the path for object
+[2019-05-14 18:47:07] INFO  (): yes, element appears 
+[2019-05-14 18:47:12] INFO  (): Find the path for object
+[2019-05-14 18:47:17] INFO  (): Find the path for object
+[2019-05-14 18:47:17] INFO  (): selected the checkbox successfully
+[2019-05-14 18:47:31] INFO  (): Find the path for object
+[2019-05-14 18:47:37] INFO  (): Find the path for object
+[2019-05-14 18:47:37] INFO  (): Verifying activated status of Program :true.
+[2019-05-14 18:47:37] INFO  (): entered in logout method
+[2019-05-14 18:47:43] INFO  (): Logout from current user
+[2019-05-14 18:47:43] INFO  (): Befote Block completed  TC 24 : Verifying user is able to Create program  
+[2019-05-14 18:47:43] INFO  (): Started TC 24 : Verify that user is able to disable and edit the above created program
+[2019-05-14 18:47:43] INFO  (): Logged in With rani.dixit@metacubeautomation.com
+[2019-05-14 18:47:38] INFO  (): logged out successfully
+[2019-05-14 18:47:59] INFO  (): Find the path for object
+[2019-05-14 18:47:48] INFO  (): Clicking to Login Button
+[2019-05-14 18:48:17] INFO  (): Clicked on Admin Tile
+[2019-05-14 18:47:58] INFO  (): already on classic
+[2019-05-14 18:49:18] INFO  (): Find the path for object
+[2019-05-14 18:49:24] INFO  (): Find the path for object
+[2019-05-14 18:49:24] INFO  (): Verifying activated status of Program :true.
+[2019-05-14 18:49:24] INFO  (): entered in logout method
+[2019-05-14 18:49:30] INFO  (): Logout from current user
+[2019-05-14 18:49:30] INFO  (): TC:24 Completed ...
+[2019-05-14 18:49:32] INFO  (): Started TC 25 : Verifying the advanced search functionality 
+[2019-05-14 18:49:32] INFO  (): Logged in With rani.dixit@metacubeautomation.com
+[2019-05-14 18:49:25] INFO  (): logged out successfully
+[2019-05-14 18:50:05] INFO  (): Find the path for object
+[2019-05-14 18:49:52] INFO  (): Clicking to Login Button
+[2019-05-14 18:50:27] INFO  (): Find the path for object
+[2019-05-14 18:50:27] INFO  (): Clicked on User Tile
+[2019-05-14 18:50:02] INFO  (): already on classic
+[2019-05-14 18:50:33] INFO  (): Find the path for object
+[2019-05-14 18:50:43] INFO  (): Find the path for object
+[2019-05-14 18:50:43] INFO  (): Verifying First Name Advanced searching :true.
+[2019-05-14 18:50:49] INFO  (): Find the path for object
+[2019-05-14 18:50:49] INFO  (): Verifying Role Advanced searching :true.
+[2019-05-14 18:50:54] INFO  (): Find the path for object
+[2019-05-14 18:50:54] INFO  (): Verifying Last Name Advanced searching :true.
+[2019-05-14 18:50:59] INFO  (): Find the path for object
+[2019-05-14 18:51:05] INFO  (): Find the path for object
+[2019-05-14 18:51:05] INFO  (): Verifying email Advanced searching :true.
+[2019-05-14 18:51:10] INFO  (): Find the path for object
+[2019-05-14 18:51:10] INFO  (): Verifying access level Advanced searching :true.
+[2019-05-14 18:51:10] INFO  (): entered in logout method
+[2019-05-14 18:51:11] INFO  (): logged out successfully
+[2019-05-14 18:51:16] INFO  (): Logout from current user
+[2019-05-14 18:51:16] INFO  (): Completed Test case 25 . 
+[2019-05-14 18:50:59] INFO  (): Verifying Profile Advanced searching :true.
+[2019-05-14 17:34:25] INFO  (): already on classic
+[2019-05-14 17:34:07] INFO  (): logging out from after all block of TC03 Verifying account address to send swag
+[2019-05-14 18:38:27] INFO  (): already on classic
+[2019-05-14 18:46:31] INFO  (): already on classic
+[2019-05-14 17:40:43] INFO  (): Script re-execution failed in 1 attempt with message
+[2019-05-14 17:42:13] INFO  (): Script re-execution failed in 4 attempt with message
+[2019-05-14 17:39:07] INFO  (): already on classic
+[2019-05-14 17:38:50] INFO  (): Test Case Completed TS:04 --
+[2019-05-14 17:49:00] INFO  (): already on classic
+[2019-05-14 17:42:43] INFO  (): Script re-execution failed in 5 attempt with message
+[2019-05-14 17:48:44] INFO  (): Test Case Completed TC:08 --
+[2019-05-14 17:41:13] INFO  (): Script re-execution failed in 2 attempt with message
+[2019-05-14 18:26:27] INFO  (): In classsic Version.
+[2019-05-14 17:44:11] INFO  (): Test Case Completed TC:05 --
+[2019-05-14 18:30:32] INFO  (): already on classic
+[2019-05-14 18:43:14] INFO  (): Test Case Completed TS:22 --
+[2019-05-14 18:40:24] INFO  (): already on classic
+[2019-05-14 17:52:21] INFO  (): Verify program availability on contact send marketing page : true
+[2019-05-14 18:46:15] INFO  (): Test Case Completed TS:23 --
+[2019-05-14 17:41:43] INFO  (): Script re-execution failed in 3 attempt with message
+[2019-05-14 18:05:17] INFO  (): already on classic
+[2019-05-14 18:51:24] INFO  (): Before Block - TC05 Verify Successfully program created with multiple product associated with it and user able to send swag with multiple products 
+[2019-05-14 18:51:24] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:52:00] INFO  (): Find the path for object
+[2019-05-14 18:51:42] INFO  (): Clicking to Login Button
+[2019-05-14 18:52:18] INFO  (): Clicked on Admin Tile
+[2019-05-14 18:52:25] INFO  (): Clicked on New Program Button
+[2019-05-14 18:52:25] INFO  (): Find the path for object
+[2019-05-14 18:52:25] INFO  (): Find the path for object
+[2019-05-14 18:52:33] INFO  (): Find the path for object
+[2019-05-14 18:52:33] INFO  (): Clicking on Add Program Product
+[2019-05-14 18:52:33] INFO  (): Find the path for object
+[2019-05-14 18:52:34] INFO  (): Setting the Product with Product Name -PFL_Auto_Product1
+[2019-05-14 18:52:45] INFO  (): Find the path for object
+[2019-05-14 18:52:45] INFO  (): yes, element appears 
+[2019-05-14 18:52:50] INFO  (): Find the path for object
+[2019-05-14 18:52:55] INFO  (): Find the path for object
+[2019-05-14 18:52:55] INFO  (): selected the checkbox successfully
+[2019-05-14 18:53:09] INFO  (): Find the path for object
+[2019-05-14 18:53:09] INFO  (): Clicking on Add Program Product
+[2019-05-14 18:56:10] INFO  (): Script re-execution failed in 6 attempt with message
+[2019-05-14 18:56:10] ERROR  (): C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/node/finders.rb:43:in `block in find'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/node/base.rb:84:in `synchronize'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/node/finders.rb:32:in `find'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:698:in `block (2 levels) in <class:Session>'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:495:in `block (3 levels) in add_program_product_on_classic'
+C:/Users/Test/Google Drive/pflautomation/lib/FrameworkLib/utility_lib.rb:300:in `block in re_execute_script_block'
+C:/Users/Test/Google Drive/pflautomation/lib/FrameworkLib/utility_lib.rb:298:in `each'
+C:/Users/Test/Google Drive/pflautomation/lib/FrameworkLib/utility_lib.rb:298:in `re_execute_script_block'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:494:in `block (2 levels) in add_program_product_on_classic'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:333:in `block in within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/selenium/driver.rb:136:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:332:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:491:in `block in add_program_product_on_classic'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:333:in `block in within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/selenium/driver.rb:136:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/session.rb:332:in `within_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/capybara-2.5.0/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:490:in `add_program_product_on_classic'
+C:/Users/Test/Google Drive/pflautomation/lib/PageService/administrationService.rb:482:in `add_program_product'
+C:/Users/Test/Google Drive/pflautomation/spec/TestCases/Smoke/TS05_Administration_Multiple_product.rb:31:in `block (2 levels) in <top (required)>'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:357:in `instance_exec'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:357:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:521:in `block in run_owned_hooks_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:520:in `each'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:520:in `run_owned_hooks_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb:473:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb:494:in `block in run_before_context_hooks'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/memoized_helpers.rb:186:in `block in isolate_for_context_hook'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/memoized_helpers.rb:182:in `instance_exec'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/memoized_helpers.rb:182:in `isolate_for_context_hook'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb:493:in `run_before_context_hooks'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb:542:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:119:in `block (3 levels) in run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:119:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:119:in `block (2 levels) in run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/configuration.rb:1680:in `with_suite_hooks'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:118:in `block in run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/reporter.rb:77:in `report'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:117:in `run_specs'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:93:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:78:in `run'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/lib/rspec/core/runner.rb:45:in `invoke'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/rspec-core-3.4.4/exe/rspec:4:in `<main>'
+[2019-05-14 18:56:10] INFO  (): Script re_execution failed in all attempt
+[2019-05-14 18:56:10] INFO  (): Entering into After All Block TC:05 --
+[2019-05-14 18:56:10] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:56:28] INFO  (): Find the path for object
+[2019-05-14 18:56:17] INFO  (): Clicking to Login Button
+[2019-05-14 18:56:47] INFO  (): clicked on go button first time
+[2019-05-14 18:56:47] INFO  (): Contact Name CON
+[2019-05-14 18:56:27] INFO  (): already on classic
+[2019-05-14 18:56:59] INFO  (): No SwagIQ Order Available
+[2019-05-14 18:57:04] INFO  (): No SwagIQ Order Available
+[2019-05-14 18:57:04] INFO  (): entered in logout method
+[2019-05-14 18:57:06] INFO  (): logged out successfully
+[2019-05-14 18:57:11] INFO  (): Logout from current user
+[2019-05-14 18:57:11] INFO  (): Before Block - TC06 Verify Successfully program created with assignment type role with single product associated with it and user able to send swag.
+[2019-05-14 18:57:11] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 18:57:29] INFO  (): Find the path for object
+[2019-05-14 18:57:18] INFO  (): Clicking to Login Button
+[2019-05-14 18:57:46] INFO  (): Clicked on Admin Tile
+[2019-05-14 18:57:47] INFO  (): Clicked on New Program Button
+[2019-05-14 18:57:47] INFO  (): Find the path for object
+[2019-05-14 18:57:47] INFO  (): Find the path for object
+[2019-05-14 18:57:55] INFO  (): Find the path for object
+[2019-05-14 18:57:55] INFO  (): Clicking on Add Program Product
+[2019-05-14 18:57:55] INFO  (): Find the path for object
+[2019-05-14 18:57:56] INFO  (): Setting the Product with Product Name -PFL_Auto_Product1
+[2019-05-14 18:58:23] INFO  (): Find the path for object
+[2019-05-14 18:58:29] INFO  (): Find the path for object
+[2019-05-14 18:58:29] INFO  (): Verify program is activated : true
+[2019-05-14 18:58:29] INFO  (): entered in logout method
+[2019-05-14 18:58:30] INFO  (): logged out successfully
+[2019-05-14 18:58:35] INFO  (): Logout from current user
+[2019-05-14 18:58:35] INFO  (): Completed Before Block of TC:06..... 
+[2019-05-14 18:58:35] INFO  (): Started TS-01: Verify that user is able to send swag with associated product to Role Program 
+[2019-05-14 18:58:35] INFO  (): Logged in With deepak@metacubeautomation.com
+[2019-05-14 18:58:52] INFO  (): Find the path for object
+[2019-05-14 18:58:41] INFO  (): Clicking to Login Button
+[2019-05-14 18:59:09] INFO  (): clicked on go button first time
+[2019-05-14 18:59:09] INFO  (): Contact Name CON
+[2019-05-14 18:59:30] INFO  (): In classsic Version.
+[2019-05-14 18:58:51] INFO  (): already on classic
+[2019-05-14 18:59:44] INFO  (): Find the path for object
+[2019-05-14 18:59:44] INFO  (): Entered in Program Send Swag Screen
+[2019-05-14 18:59:44] INFO  (): trying to enter the text in search bar
+[2019-05-14 18:59:44] INFO  (): entered the search query
+[2019-05-14 18:59:44] INFO  (): Entered find
+[2019-05-14 19:00:05] INFO  (): Find the path for object
+[2019-05-14 19:00:10] INFO  (): Find the path for object
+[2019-05-14 19:00:16] INFO  (): Verify send swag confirmation message : true
+[2019-05-14 19:00:16] INFO  (): Find the path for object
+[2019-05-14 19:00:16] INFO  (): clicked on canvas OK button
+[2019-05-14 19:00:18] INFO  (): Find the path for object
+[2019-05-14 19:00:18] INFO  (): entered in logout method
+[2019-05-14 19:00:25] INFO  (): Logout from current user
+[2019-05-14 19:00:25] INFO  (): Completed TS-01: Verify that user is able to send swag with associated product to Role Program 
+[2019-05-14 19:00:25] INFO  (): Completed Test case 06 . 
+[2019-05-14 19:00:27] INFO  (): Entering into After All Block TC:06 --
+[2019-05-14 19:00:27] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 19:00:20] INFO  (): logged out successfully
+[2019-05-14 19:01:03] INFO  (): Find the path for object
+[2019-05-14 19:00:45] INFO  (): Clicking to Login Button
+[2019-05-14 19:01:21] INFO  (): clicked on go button first time
+[2019-05-14 19:01:21] INFO  (): Contact Name CON
+[2019-05-14 19:01:29] INFO  (): Find the path for object
+[2019-05-14 19:00:56] INFO  (): already on classic
+[2019-05-14 19:01:34] INFO  (): order deleted successfully
+[2019-05-14 19:01:34] INFO  (): Test Case Completed TC:06 --
+[2019-05-14 19:01:34] INFO  (): Starting TC-07: Verifying error message when quantity is exceeding than the available
+[2019-05-14 19:01:34] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 19:01:52] INFO  (): Find the path for object
+[2019-05-14 19:01:40] INFO  (): Clicking to Login Button
+[2019-05-14 19:02:09] INFO  (): Clicked on Admin Tile
+[2019-05-14 19:02:15] INFO  (): Clicked on New Program Button
+[2019-05-14 19:02:16] INFO  (): Find the path for object
+[2019-05-14 19:02:16] INFO  (): Find the path for object
+[2019-05-14 19:02:23] INFO  (): Find the path for object
+[2019-05-14 19:02:24] INFO  (): Clicking on Add Program Product
+[2019-05-14 19:02:24] INFO  (): Find the path for object
+[2019-05-14 19:02:25] INFO  (): Setting the Product with Product Name -PFL_Auto_Product3
+[2019-05-14 19:02:41] INFO  (): Find the path for object
+[2019-05-14 19:02:41] INFO  (): yes, element appears 
+[2019-05-14 19:02:46] INFO  (): Find the path for object
+[2019-05-14 19:02:51] INFO  (): Find the path for object
+[2019-05-14 19:02:51] INFO  (): selected the checkbox successfully
+[2019-05-14 19:03:11] INFO  (): Find the path for object
+[2019-05-14 19:03:16] INFO  (): Verify program product budget is exceeded : true
+[2019-05-14 19:03:38] INFO  (): entered in logout method
+[2019-05-14 19:03:39] INFO  (): logged out successfully
+[2019-05-14 19:03:44] INFO  (): Logout from current user
+[2019-05-14 19:03:44] INFO  (): Completed TS-01: Verifying error message when quantity is exceeding than the available
+[2019-05-14 19:03:44] INFO  (): Completed TC-07
+[2019-05-14 19:03:47] INFO  (): Executing TC-13.Verify Product Configuration (Quantity) Under Product Administration and program page 
+[2019-05-14 19:03:47] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 19:03:17] INFO  (): Verify user budget is exceeded : true
+[2019-05-14 19:04:21] INFO  (): Find the path for object
+[2019-05-14 19:04:04] INFO  (): Clicking to Login Button
+[2019-05-14 19:04:38] INFO  (): Find the path for object
+[2019-05-14 19:04:51] INFO  (): Find the path for object
+[2019-05-14 19:05:02] INFO  (): Find the path for object
+[2019-05-14 19:04:51] INFO  (): Finding Xpath value 
+[2019-05-14 19:05:20] INFO  (): Clicked on Admin Tile
+[2019-05-14 19:05:22] INFO  (): Clicked on New Program Button
+[2019-05-14 19:05:22] INFO  (): Find the path for object
+[2019-05-14 19:05:22] INFO  (): Find the path for object
+[2019-05-14 19:05:29] INFO  (): Find the path for object
+[2019-05-14 19:05:29] INFO  (): Clicking on Add Program Product
+[2019-05-14 19:05:30] INFO  (): Find the path for object
+[2019-05-14 19:05:30] INFO  (): Setting the Product with Product Name -PFL_Auto_Product5
+[2019-05-14 19:05:45] INFO  (): Find the path for object
+[2019-05-14 19:05:58] INFO  (): User loggin Successfully
+[2019-05-14 19:06:03] INFO  (): already on classic
+[2019-05-14 19:06:10] INFO  (): Find the path for object
+[2019-05-14 19:05:39] INFO  (): Browser launched and navigae to URL
+[2019-05-14 19:06:28] INFO  (): clicked on go button first time
+[2019-05-14 19:06:28] INFO  (): Contact Name CON
+[2019-05-14 19:06:03] INFO  (): Starting TC-17: Verify User is not able to Send Swag if Do Not Swag field is enabled for Contact
+[2019-05-14 19:06:53] INFO  (): Entering into After All Block TC:17 --
+[2019-05-14 19:06:53] INFO  (): Logged in With mohit.gulati@metacubeautomation.com
+[2019-05-14 19:07:11] INFO  (): Clicking to Login Button
+[2019-05-14 19:07:30] INFO  (): Find the path for object
+[2019-05-14 19:07:48] INFO  (): clicked on go button first time
+[2019-05-14 19:07:48] INFO  (): Contact Name CON
+[2019-05-14 19:07:21] INFO  (): already on classic
+[2019-05-14 19:08:05] INFO  (): entered in logout method
+[2019-05-14 19:08:07] INFO  (): logged out successfully
+[2019-05-14 19:08:12] INFO  (): Logout from current user
+[2019-05-14 19:08:12] INFO  (): Test Case Completed TC:17 --
+[2019-05-14 18:57:28] INFO  (): already on classic
+[2019-05-14 18:54:10] INFO  (): Script re-execution failed in 2 attempt with message
+[2019-05-14 18:54:40] INFO  (): Script re-execution failed in 3 attempt with message
+[2019-05-14 18:53:40] INFO  (): Script re-execution failed in 1 attempt with message
+[2019-05-14 18:51:52] INFO  (): already on classic
+[2019-05-14 19:01:50] INFO  (): already on classic
+[2019-05-14 19:04:14] INFO  (): already on classic
+[2019-05-14 18:55:10] INFO  (): Script re-execution failed in 4 attempt with message
+[2019-05-14 18:55:40] INFO  (): Script re-execution failed in 5 attempt with message
+[2019-05-14 18:57:11] INFO  (): Test Case Completed TC:05 --
+[2019-05-14 18:59:44] INFO  (): Verify program on contact send marketing page : true

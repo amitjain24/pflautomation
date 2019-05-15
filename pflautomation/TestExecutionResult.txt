@@ -1,0 +1,34 @@
+example_id                                                                         | status | run_time               |
+---------------------------------------------------------------------------------- | ------ | ---------------------- |
+./spec/TestCases/Smoke/TS01_Administration_AssertTiles.rb[1:1]                     | passed | 1 minute 3.45 seconds  |
+./spec/TestCases/Smoke/TS01_Administration_AssertTiles.rb[1:2]                     | passed | 1 minute 4.92 seconds  |
+./spec/TestCases/Smoke/TS01_Administration_AssertTiles.rb[1:3]                     | passed | 1 minute 5.7 seconds   |
+./spec/TestCases/Smoke/TS01_Administration_AssertTiles.rb[1:4]                     | passed | 1 minute 3.72 seconds  |
+./spec/TestCases/Smoke/TS02_Administration_verify_program.rb[1:1]                  | passed | 1 minute 34.22 seconds |
+./spec/TestCases/Smoke/TS03_Verify_order_on_contact_and_account.rb[1:1]            | passed | 1 minute 54.39 seconds |
+./spec/TestCases/Smoke/TS03_Verify_order_on_contact_and_account.rb[1:2]            | passed | 1 minute 56.54 seconds |
+./spec/TestCases/Smoke/TS04_Administration_Campaign_Associated.rb[1:1]             | passed | 1 minute 48.47 seconds |
+./spec/TestCases/Smoke/TS05_Administration_Multiple_product.rb[1:1]                | failed | 0.00002 seconds        |
+./spec/TestCases/Smoke/TS06_Administration_role_based_program.rb[1:1]              | passed | 1 minute 52.1 seconds  |
+./spec/TestCases/Smoke/TS07_Administration_program_error_validation.rb[1:1]        | passed | 2 minutes 12.7 seconds |
+./spec/TestCases/Smoke/TS08_Verify_changes_when_swagIQ_license_is_assigned.rb[1:1] | passed | 1 minute 18.72 seconds |
+./spec/TestCases/Smoke/TS09_Administration_User_Shared_Program.rb[1:1]             | passed | 2 minutes 30.5 seconds |
+./spec/TestCases/Smoke/TS09_Administration_User_Shared_Program.rb[1:2]             | passed | 1 minute 35.24 seconds |
+./spec/TestCases/Smoke/TS10_verify_cutom_permission_set_tools_page.rb[1:1]         | passed | 46.81 seconds          |
+./spec/TestCases/Smoke/TS11_advance_search_functionality.rb[1:1]                   | passed | 3 minutes 34 seconds   |
+./spec/TestCases/Smoke/TS12_Administration_enable_license.rb[1:1]                  | passed | 1 minute 16.22 seconds |
+./spec/TestCases/Smoke/TS13_Product_quantity_assert.rb[1:1]                        | failed | 1 minute 51.74 seconds |
+./spec/TestCases/Smoke/TS14_StandardAccessType.rb[1:1]                             | passed | 45.07 seconds          |
+./spec/TestCases/Smoke/TS15_Contact_Blankaddress_Send_Swag_Error.rb[1:1]           | passed | 2 minutes 3.3 seconds  |
+./spec/TestCases/Smoke/TS16_Contact_length_validation_on_custom_address.rb[1:1]    | passed | 3 minutes 14.9 seconds |
+./spec/TestCases/Smoke/TS17_Verify_Do_Not_Swag.rb[1:1]                             | failed | 50.8 seconds           |
+./spec/TestCases/Smoke/TS18_Order_Status_Change.rb[1:1]                            | passed | 3 minutes 25.8 seconds |
+./spec/TestCases/Smoke/TS19_Administration_last_sent_swag_date.rb[1:1]             | passed | 1 minute 49.38 seconds |
+./spec/TestCases/Smoke/TS20_validation_msg_no_program_associated.rb[1:1]           | passed | 1 minute 32.11 seconds |
+./spec/TestCases/Smoke/TS21_Enable_Disable_State_Of_Program_On_Send_Swag.rb[1:1]   | passed | 2 minutes 21 seconds   |
+./spec/TestCases/Smoke/TS21_Enable_Disable_State_Of_Program_On_Send_Swag.rb[1:2]   | passed | 2 minutes 41.3 seconds |
+./spec/TestCases/Smoke/TS22_Product_Verify_Active_Inactive_State.rb[1:1]           | passed | 1 minute 39.09 seconds |
+./spec/TestCases/Smoke/TS22_Product_Verify_Active_Inactive_State.rb[1:2]           | passed | 1 minute 59.78 seconds |
+./spec/TestCases/Smoke/TS23_Administration_Verify_Remove_User_From_Store.rb[1:1]   | passed | 43.57 seconds          |
+./spec/TestCases/Smoke/TS24_Administration_Program_Edit.rb[1:1]                    | passed | 1 minute 49.35 seconds |
+./spec/TestCases/Smoke/TS25_Administration_User_Advance_Search.rb[1:1]             | passed | 1 minute 46.48 seconds |

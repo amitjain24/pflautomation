@@ -1,0 +1,6 @@
+Contact con = new Contact(LastName='SwagIQ',FirstName = 'TestUser',
+MailingStreet = '620 SW 5th Avenue Suite 40',
+FirstName = 'TestUser',MailingStreet = '620 SW 5th Avenue Suite 40',
+MailingCity = 'NewYork',MailingState = 'SH',MailingPostalCode = '7718-07-01',
+MailingCountry = 'USA',Phone = '(503) 421-7800'); 
+insert con;

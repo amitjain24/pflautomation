@@ -1,0 +1,32 @@
+<?xml version = "1.0"?>
+<project name = "Hello World Project" default = "smoke.exec">
+   <target name = "info">
+      <echo>Hello World - Welcome to Apache Ant!</echo>
+   </target>
+   
+   <target name="testing.Ant" >
+   <antcall target="testing2.Ant"/>
+		<echo>Welcome to Ant execution</echo>
+	</target>
+		
+	<target name="smokeSuit1.exec" >
+		 <exec executable="cmd" failonerror="true">
+			<arg value="/c"/>
+			<arg value="smokeSuit1.bat"/>
+		</exec>
+	</target>
+	
+	<target name="smokeSuit2.exec" >
+		 <exec executable="cmd" failonerror="true">
+			<arg value="/c"/>
+			<arg value="smokeSuit2.bat"/>
+		</exec>
+	</target>
+	
+	<target name="regression.exec" >
+		 <exec executable="cmd" failonerror="true">
+			<arg value="/c"/>
+			<arg value="antregression.bat"/>
+		</exec>
+	</target>
+</project>

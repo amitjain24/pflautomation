@@ -1,0 +1,26 @@
+<apex:page controller="AutomationScriptRunner">
+    <style>
+    
+        .success{
+            color:green;
+        }
+        .error{
+            color:red;
+        }
+    </style>
+    
+    <apex:form >
+    	<div style="width:70%;">
+    		<apex:actionFunction name="runScript" action="execute"/>
+        	<apex:inputTextarea rows="10" cols="100" value="{!scriptText}"/>
+        	<div style="width:82%">
+        		<apex:commandButton id="executeapex" action="{!execute}" value="Execute Apex" style="float:right"/>
+        	</div>
+    	</div>
+        
+        <div>
+        	<apex:outputText styleClass="{!IF(textColor == 'red','error','success')}" value="{!responseText}" escape="false"/>
+        </div>
+
+    </apex:form>
+</apex:page>

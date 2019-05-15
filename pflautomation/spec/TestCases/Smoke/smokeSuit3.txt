@@ -1,0 +1,8 @@
+spec/TestCases/Smoke/TS18_Order_Status_Change.rb
+spec/TestCases/Smoke/TS19_Administration_last_sent_swag_date.rb
+spec/TestCases/Smoke/TS20_validation_msg_no_program_associated.rb
+spec/TestCases/Smoke/TS21_Enable_Disable_State_Of_Program_On_Send_Swag.rb
+spec/TestCases/Smoke/TS22_Product_Verify_Active_Inactive_State.rb
+spec/TestCases/Smoke/TS23_Administration_Verify_Remove_User_From_Store.rb
+spec/TestCases/Smoke/TS24_Administration_Program_Edit.rb
+spec/TestCases/Smoke/TS25_Administration_User_Advance_Search.rb
